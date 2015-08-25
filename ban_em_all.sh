@@ -1,4 +1,5 @@
 sudo iptables -A INPUT -s 14.120.0.0/16 -j REJECT
+sudo iptables -A INPUT -s 14.121.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 58.250.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 110.87.89.161/32 -j REJECT
 sudo iptables -A INPUT -s 111.31.0.0/16 -j REJECT
