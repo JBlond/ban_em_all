@@ -23,5 +23,6 @@ sudo iptables -A INPUT -s 211.136.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 218.75.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 220.181.132.220/32 -j REJECT
 sudo iptables -A INPUT -s 222.175.103.57/32 -j REJECT
+sudo iptables -A INPUT -s 222.216.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 223.99.0.0/16 -j REJECT
 sudo iptables -A INPUT -p tcp -m tcp --dport 3306 -j REJECT --reject-with icmp-port-unreachable
