@@ -14,6 +14,7 @@ sudo iptables -A INPUT -s 119.84.0.0/12 -j REJECT
 sudo iptables -A INPUT -s 122.10.133.5/32 -j REJECT --reject-with icmp-port-unreachable
 sudo iptables -A INPUT -s 123.121.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 125.70.0.0/16 -j REJECT
+sudo iptables -A INPUT -s 176.9.63.48 -j REJECT
 sudo iptables -A INPUT -s 182.36.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 182.118.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 182.180.0.0/16 -j REJECT
