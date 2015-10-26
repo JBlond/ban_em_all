@@ -21,6 +21,7 @@ sudo iptables -A INPUT -s 182.180.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 183.54.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 183.56.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 202.46.0.0/16 -j REJECT
+sudo iptables -A INPUT -s 211.103.0.0/12  -j REJECT
 sudo iptables -A INPUT -s 211.136.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 218.75.0.0/16 -j REJECT
 sudo iptables -A INPUT -s 220.181.132.220/32 -j REJECT
