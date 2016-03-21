@@ -31,6 +31,7 @@ sudo iptables -A bannedDownloader -s 119.5.0.0/12 -j REJECT
 sudo iptables -A bannedDownloader -s 119.84.0.0/12 -j REJECT
 sudo iptables -A bannedDownloader -s 119.97.0.0/12 -j REJECT
 sudo iptables -A bannedDownloader -s 119.135.0.0/12 -j REJECT
+sudo iptables -A bannedDownloader -s 120.31.0.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 120.52.0.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 120.202.255.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 122.10.133.5/32 -j REJECT --reject-with icmp-port-unreachable
