@@ -72,4 +72,5 @@ sudo iptables -A bannedDownloader -s 222.175.103.57/32 -j REJECT
 sudo iptables -A bannedDownloader -s 222.216.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 223.99.0.0/16 -j REJECT
 sudo iptables -A INPUT -j bannedDownloader
-sudo iptables -A INPUT -p tcp -m tcp --dport 3306 -j REJECT --reject-with icmp-port-unreachable
+sudo iptables -A INPUT -p tcp -m tcp --dport 143 -j DROP
+sudo iptables -A INPUT -p tcp -m tcp --dport 3306 -j DROP
