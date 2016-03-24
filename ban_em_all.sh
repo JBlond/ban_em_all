@@ -61,6 +61,7 @@ sudo iptables -A bannedDownloader -s 183.54.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.56.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.224.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.132.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 183.206.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j REJECT
