@@ -1,5 +1,6 @@
 #!/bin/bash
-if [ -z "$1" ]
-	then
-		sudo iptables -A INPUT -s $1 -j REJECT
+ if [ "$#" -eq  "0" ] then
+	echo echo "No arguments supplied"
+else
+	sudo iptables -A INPUT -s $1 -j REJECT
 fi
