@@ -2,11 +2,16 @@ sudo iptables -F
 sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
 sudo iptables -N bannedDownloader
+sudo iptables -A bannedDownloader -s 1.80.0.0/13 -j REJECT
 sudo iptables -A bannedDownloader -s 1.81.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 1.91.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 1.92.0.0/14 -j REJECT
+sudo iptables -A bannedDownloader -s 1.192.0.0/13 -j REJECT
+sudo iptables -A bannedDownloader -s 1.202.0.0/15 -j REJECT
 sudo iptables -A bannedDownloader -s 1.204.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 14.120.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 14.121.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 14.144.0.0/12 -j REJECT
 sudo iptables -A bannedDownloader -s 36.96.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j REJECT
@@ -54,7 +59,7 @@ sudo iptables -A bannedDownloader -s 120.31.0.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 120.52.0.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 120.202.255.0/16  -j REJECT
 sudo iptables -A bannedDownloader -s 121.32.0.0/16  -j REJECT
-sudo iptables -A bannedDownloader -s 122.10.133.5/32 -j REJECT --reject-with icmp-port-unreachable
+sudo iptables -A bannedDownloader -s 122.10.133.5/32 -j REJECT
 sudo iptables -A bannedDownloader -s 123.121.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 123.180.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 124.95.0.0/16 -j REJECT
