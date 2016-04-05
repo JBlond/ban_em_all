@@ -19,9 +19,13 @@ sudo iptables -A bannedDownloader -s 46.39.243.136 -j REJECT
 sudo iptables -A bannedDownloader -s 46.118.124.104 -j REJECT
 sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 58.19.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 58.60.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 58.250.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 59.41.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 59.52.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 60.24.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.47.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 61.54.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.135.152.207 -j REJECT
 sudo iptables -A bannedDownloader -s 61.135.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.139.0.0/16 -j REJECT
@@ -37,6 +41,7 @@ sudo iptables -A bannedDownloader -s 106.118.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 107.178.0.0/16 -j REJECT #san fran
 sudo iptables -A bannedDownloader -s 110.87.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 111.0.0.0/8 -j REJECT
+sudo iptables -A bannedDownloader -s 112.21.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 112.115.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 113.98.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 114.80.0.0/16 -j REJECT
@@ -69,6 +74,9 @@ sudo iptables -A bannedDownloader -s 124.166.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 124.192.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 124.234.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 125.70.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 125.81.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 159.226.251.229 -j REJECT
 sudo iptables -A bannedDownloader -s 159.226.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 159.226.251.230 -j REJECT
