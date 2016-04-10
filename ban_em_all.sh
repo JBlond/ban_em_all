@@ -104,7 +104,7 @@ sudo iptables -A bannedDownloader -s 183.206.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j REJECT # paraguay
-sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j DROP # DROP TEST
 sudo iptables -A bannedDownloader -s 202.104.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 223.104.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 210.36.0.0/16 -j REJECT
