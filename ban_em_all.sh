@@ -29,8 +29,7 @@ sudo iptables -A bannedDownloader -s 60.24.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 60.179.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.47.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.54.0.0/16 -j REJECT
-sudo iptables -A bannedDownloader -s 61.135.152.207 -j REJECT
-sudo iptables -A bannedDownloader -s 61.135.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 61.135.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.139.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.173.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j REJECT
@@ -63,7 +62,7 @@ sudo iptables -A bannedDownloader -s 116.226.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 116.237.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 117.27.0.0/12 -j REJECT
 sudo iptables -A bannedDownloader -s 117.158.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 117.169.0.0/12 -j REJECT
+sudo iptables -A bannedDownloader -s 117.169.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 117.177.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 118.88.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 118.114.0.0/16 -j REJECT
@@ -88,7 +87,7 @@ sudo iptables -A bannedDownloader -s 124.167.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 124.166.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 124.192.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 124.234.0.0/16 -j REJECT
-sudo iptables -A bannedDownloader -s 125.70.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 125.70.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.81.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j REJECT
@@ -104,7 +103,7 @@ sudo iptables -A bannedDownloader -s 182.132.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 182.180.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 182.207.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.54.0.0/16 -j REJECT
-sudo iptables -A bannedDownloader -s 183.56.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 183.56.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.62.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.224.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.132.0.0/16 -j REJECT
@@ -115,7 +114,7 @@ sudo iptables -A bannedDownloader -s 190.23.201.162 -j REJECT # paraguay
 sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j DROP # DROP TEST
 sudo iptables -A bannedDownloader -s 202.104.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 210.13.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 210.36.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 210.36.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 211.96.0.0/12  -j DROP
 sudo iptables -A bannedDownloader -s 211.103.0.0/12  -j DROP
 sudo iptables -A bannedDownloader -s 211.128.0.0/12 -j DROP
