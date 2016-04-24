@@ -3,5 +3,5 @@ if [ "$#" -eq  "0" ] #
 	then
 		echo "No arguments supplied"
 else
-	sudo iptables -A INPUT -s $1 -j REJECT
+	sudo iptables -A INPUT -s $1 -j DROP
 fi
