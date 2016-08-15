@@ -80,6 +80,7 @@ sudo iptables -A bannedDownloader -s 114.96.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 114.98.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 114.240.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 114.254.0.0/12 -j DROP
+sudo iptables -A bannedDownloader -s 115.156.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 115.159.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 115.192.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 115.212.0.0/12 -j DROP
@@ -138,6 +139,7 @@ sudo iptables -A bannedDownloader -s 163.195.192.174 -j DROP # ZA South Africa
 sudo iptables -A bannedDownloader -s 171.223.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 176.9.63.48 -j REJECT
 sudo iptables -A bannedDownloader -s 180.76.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 180.164.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.32.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.34.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.36.0.0/16 -j REJECT
@@ -203,5 +205,6 @@ sudo iptables -A bannedDownloader -s 222.218.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 223.11.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 223.99.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 223.104.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 223.243.0.0/16 -j DROP
 sudo iptables -A INPUT -j bannedDownloader
 sudo /etc/init.d/fail2ban restart
