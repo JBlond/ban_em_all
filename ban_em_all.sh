@@ -55,6 +55,7 @@ sudo iptables -A bannedDownloader -s 95.158.49.2 -j REJECT
 sudo iptables -A bannedDownloader -s 100.43.153.118 -j DROP #USA
 sudo iptables -A bannedDownloader -s 103.7.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 103.43.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 104.42.0.0/16 -j DROP # ??? Downloader of 404
 sudo iptables -A bannedDownloader -s 106.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.91.174.114 -j REJECT
 sudo iptables -A bannedDownloader -s 106.117.0.0/16 -j DROP
