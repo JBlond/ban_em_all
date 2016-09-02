@@ -24,7 +24,7 @@ sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.120.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 46.39.243.136 -j REJECT
 sudo iptables -A bannedDownloader -s 46.118.124.104 -j REJECT
 sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
@@ -171,7 +171,7 @@ sudo iptables -A bannedDownloader -s 183.131.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.132.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 183.136.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.206.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j REJECT # paraguay
 sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j DROP
