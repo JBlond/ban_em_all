@@ -150,7 +150,7 @@ sudo iptables -A bannedDownloader -s 125.65.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.70.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 139.227.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 140.224.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 158.130.6.191 -j DROP # Ivy-League-Uni zmap scan
@@ -167,7 +167,7 @@ sudo iptables -A bannedDownloader -s 182.34.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.36.0.0/16 -j REJECT
 sudo iptables -A bannedDownloader -s 182.114.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.118.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 182.131.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 182.131.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.132.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.180.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 182.207.0.0/16 -j DROP
@@ -180,7 +180,7 @@ sudo iptables -A bannedDownloader -s 183.56.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.62.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.224.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.131.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 183.132.0.0/16 -j REJECT
+sudo iptables -A bannedDownloader -s 183.132.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.136.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.206.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j DROP
