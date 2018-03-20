@@ -196,6 +196,7 @@ sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
+sudo iptables -A bannedDownloader -s 195.22.127.224 -j DROP # Poland / frequent scanner
 sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.98.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.104.0.0/16 -j DROP
