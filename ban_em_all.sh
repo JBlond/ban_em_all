@@ -59,6 +59,7 @@ sudo iptables -A bannedDownloader -s 61.158.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.178.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 87.98.163.30 -j DROP #ohv france
 sudo iptables -A bannedDownloader -s 94.249.0.43 -j DROP # JORDAN
 sudo iptables -A bannedDownloader -s 95.158.49.2 -j DROP
 sudo iptables -A bannedDownloader -s 100.43.153.118 -j DROP #USA
