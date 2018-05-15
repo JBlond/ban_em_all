@@ -12,6 +12,7 @@ sudo iptables -A bannedDownloader -s 1.192.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 1.202.0.0/15 -j DROP
 sudo iptables -A bannedDownloader -s 1.204.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 5.9.23.231  -j DROP # BLEXBot
+sudo iptables -A bannedDownloader -s 5.251.0.0/16  -j DROP # /checkrealtys
 sudo iptables -A bannedDownloader -s 14.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.121.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.144.0.0/12 -j DROP
@@ -119,6 +120,7 @@ sudo iptables -A bannedDownloader -s 117.150.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 117.158.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 117.169.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 117.177.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 118.24.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 118.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 118.114.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 119.5.0.0/12 -j DROP
