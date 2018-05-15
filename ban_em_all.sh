@@ -22,6 +22,7 @@ sudo iptables -A bannedDownloader -s 36.96.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.103.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.110.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.149.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 36.248.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
@@ -224,6 +225,7 @@ sudo iptables -A bannedDownloader -s 220.160.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.181.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 220.203.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 221.3.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 221.7.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 221.13.0.0/16 -j DROP
