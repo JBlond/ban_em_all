@@ -1,4 +1,5 @@
 sudo iptables -F
+sudo iptables -A INPUT -p tcp --dport 3306 -j DROP
 sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
 sudo iptables -N bannedDownloader
