@@ -1,5 +1,4 @@
 sudo iptables -F
-sudo iptables -A INPUT -p tcp --dport 3306 -j DROP
 sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
 sudo iptables -N bannedDownloader
@@ -254,4 +253,5 @@ sudo iptables -A bannedDownloader -s 223.104.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 223.240.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 223.243.0.0/16 -j DROP
 sudo iptables -A INPUT -j bannedDownloader
+sudo iptables -A INPUT -p tcp --dport 3306 -j DROP
 sudo /etc/init.d/fail2ban restart
