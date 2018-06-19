@@ -3,10 +3,10 @@ install:
 	@git pull
 	@./ban_em_all.sh
 	
-china
+china:
 	@echo ""
 	@./china.sh
 
-usage
+usage:
 	@echo ""
 	@./usage.sh
