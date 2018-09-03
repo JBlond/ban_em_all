@@ -112,6 +112,7 @@ sudo iptables -A bannedDownloader -s 113.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.98.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.105.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.106.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 113.110.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.116.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.171.0.0/16 -j DROP # VN Vietnam
