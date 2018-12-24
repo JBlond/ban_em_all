@@ -239,6 +239,7 @@ sudo iptables -A bannedDownloader -s 183.206.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.238.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.240.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 185.22.187.0/16 -j DROP # attacker SQL injections
 sudo iptables -A bannedDownloader -s 185.198.58.115 -j DROP #romania scanner
 sudo iptables -A bannedDownloader -s 186.194.199.30 -j DROP #BR, RIO scanner
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
