@@ -200,6 +200,7 @@ sudo iptables -A bannedDownloader -s 125.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.95.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 128.199.0.0/16 -j DROP # singapure
 sudo iptables -A bannedDownloader -s 139.227.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 140.224.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 141.13.99.180 -j DROP # scanner
