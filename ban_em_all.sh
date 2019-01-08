@@ -41,6 +41,7 @@ sudo iptables -A bannedDownloader -s 36.110.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.149.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.248.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 37.115.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 39.98.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
@@ -52,6 +53,7 @@ sudo iptables -A bannedDownloader -s 46.102.0.0/16 -j DROP # ROMANIA BOT NET
 sudo iptables -A bannedDownloader -s 46.118.124.104 -j DROP
 sudo iptables -A bannedDownloader -s 47.9.0.0/16 -j DROP # india
 sudo iptables -A bannedDownloader -s 47.75.84.180 -j DROP # california usa
+sudo iptables -A bannedDownloader -s 47.92.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 47.93.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 47.95.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
@@ -85,6 +87,7 @@ sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.216.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 87.98.163.30 -j DROP #ohv france
+sudo iptables -A bannedDownloader -s 87.247.241.226 -j DROP # UK
 sudo iptables -A bannedDownloader -s 94.249.0.43 -j DROP # JORDAN
 sudo iptables -A bannedDownloader -s 95.158.49.2 -j DROP
 sudo iptables -A bannedDownloader -s 100.43.153.118 -j DROP #USA
@@ -244,6 +247,7 @@ sudo iptables -A bannedDownloader -s 183.240.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 185.22.187.0/16 -j DROP # attacker SQL injections
 sudo iptables -A bannedDownloader -s 185.198.58.115 -j DROP #romania scanner
+sudo iptables -A bannedDownloader -s 185.234.0.0/16 -j DROP # scanner / tor ?
 sudo iptables -A bannedDownloader -s 186.194.199.30 -j DROP #BR, RIO scanner
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
