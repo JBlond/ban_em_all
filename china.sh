@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo iptables -A bannedDownloader -s 14.208.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 23.80.54.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 23.104.141.0/24 -j DROP
