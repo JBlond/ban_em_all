@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 sudo iptables -F INPUT
 sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
