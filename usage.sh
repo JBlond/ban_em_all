@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-sudo nft list table ip filter |  grep -v " 0 drop"
+sudo nft list table ip filter |  grep -v " 0 drop" # | sed -En "s/(.*)ip saddr //p"
