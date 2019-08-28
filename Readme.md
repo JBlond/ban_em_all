@@ -1,11 +1,9 @@
-Ban 'em all!
---------------
+# Ban 'em all!
 
-Ban / Block IPs via Iptables from your system. 
-The current list contains IP and or IP ranges that tried to break in servers, did massive scans, DDOS'ed the webserver, downloaded a single file from the webserver a gazillion times, brute force attacks on sshd, etc. 
+Ban / Block IPs via Iptables from your system.
+The current list contains IP and or IP ranges that tried to break in servers, did massive scans, DDOS'ed the webserver, downloaded a single file from the webserver a gazillion times, brute force attacks on sshd, etc.
 
-install
------------
+## install
 
 ```bash
 sudo apt-get install git fail2ban
@@ -14,22 +12,20 @@ cd ban
 ./ban_em_all.sh
 ```
 
-update
------------
+## update
 
 ```bash
 make
 ```
 
-ban some IP (range) on the spot
------------
+## ban some IP (range) on the spot
+
 ```bash
 ./now.sh 5.9.23.231
 ./now.sh 1.81.0.0/16
 ```
 
-usage
------------
+## usage
 
 This simple script shows which rules have been used. So maybe over time you can optimize / shorten the list of blocked IPs for your system.
 
@@ -37,7 +33,13 @@ This simple script shows which rules have been used. So maybe over time you can 
 ./usage.sh
 ```
 
-Contribute
------------
+## Legacy warnings
+
+```bash
+sudo apt install nftables
+sudo systemctl enable nftables.service
+```
+
+## Contribute
 
 Contributers are welcome. Open Pull request or file an issue.
