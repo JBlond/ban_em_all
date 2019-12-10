@@ -3,5 +3,5 @@ if [ "$#" -eq  "0" ] #
 	then
 		echo "No arguments supplied"
 else
-	sudo iptables-translate -A INPUT -s $1 -j DROP
+	sudo iptables -A INPUT -s $1 -j DROP
 fi
