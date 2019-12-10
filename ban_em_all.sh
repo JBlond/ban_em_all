@@ -12,6 +12,7 @@ sudo iptables -A bannedDownloader -s 1.182.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 1.192.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 1.202.0.0/15 -j DROP
 sudo iptables -A bannedDownloader -s 1.204.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 1.245.61.144  -j DROP # South Korea
 sudo iptables -A bannedDownloader -s 5.9.23.231  -j DROP # BLEXBot
 sudo iptables -A bannedDownloader -s 5.251.0.0/16  -j DROP # /checkrealtys
 sudo iptables -A bannedDownloader -s 14.120.0.0/16 -j DROP
@@ -59,6 +60,7 @@ sudo iptables -A bannedDownloader -s 47.93.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 47.95.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.82.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 49.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 58.16.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 58.19.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 58.42.0.0/16 -j DROP
@@ -105,6 +107,7 @@ sudo iptables -A bannedDownloader -s 103.100.158.53  -j DROP
 sudo iptables -A bannedDownloader -s 103.215.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.229.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 104.42.0.0/16 -j DROP # ??? Downloader of 404
+sudo iptables -A bannedDownloader -s 106.12.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.38.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.91.174.114 -j DROP
@@ -113,11 +116,13 @@ sudo iptables -A bannedDownloader -s 106.118.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.241.0.0/16 -j DROP # south korea sshd intruder
 sudo iptables -A bannedDownloader -s 107.178.0.0/16 -j DROP #san fran
+sudo iptables -A bannedDownloader -s 109.87.0.0/16 -j DROP # ukraine
 sudo iptables -A bannedDownloader -s 110.77.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 110.87.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 111.0.0.0/8 -j DROP
 sudo iptables -A bannedDownloader -s 112.21.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.47.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 112.85.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.86.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.112.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.115.0.0/16 -j DROP
@@ -199,6 +204,7 @@ sudo iptables -A bannedDownloader -s 123.125.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 123.139.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 123.151.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 123.180.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.207.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 124.89.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 124.93.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 124.95.0.0/16 -j DROP
@@ -216,9 +222,11 @@ sudo iptables -A bannedDownloader -s 125.95.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 128.199.0.0/16 -j DROP # singapure
+sudo iptables -A bannedDownloader -s 139.155.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 139.227.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 140.224.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 141.13.99.180 -j DROP # scanner
+sudo iptables -A bannedDownloader -s 157.230.0.0/16 -j DROP # 	Glenayre Electronics (Atlanta)
 sudo iptables -A bannedDownloader -s 158.130.6.191 -j DROP # Ivy-League-Uni zmap scan
 sudo iptables -A bannedDownloader -s 159.226.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 163.195.192.174 -j DROP # ZA South Africa
@@ -272,6 +280,7 @@ sudo iptables -A bannedDownloader -s 202.104.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.109.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.110.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.121.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 203.195.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 209.97.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 210.13.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 210.36.0.0/16 -j DROP
@@ -281,6 +290,7 @@ sudo iptables -A bannedDownloader -s 211.103.0.0/12  -j DROP
 sudo iptables -A bannedDownloader -s 211.128.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 211.136.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 211.138.0.0/12 -j DROP
+sudo iptables -A bannedDownloader -s 212.156.0.0/12 -j DROP # Turky
 sudo iptables -A bannedDownloader -s 218.0.0.0/8 -j DROP
 sudo iptables -A bannedDownloader -s 219.141.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 219.143.0.0/16 -j DROP
@@ -292,6 +302,7 @@ sudo iptables -A bannedDownloader -s 220.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.181.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.203.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 221.229.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 222.186.0.0/15 -j DROP
 sudo iptables -A bannedDownloader -s 222.219.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 222.220.0.0/15 -j DROP
 sudo iptables -A bannedDownloader -s 221.0.0.0/8 -j DROP
