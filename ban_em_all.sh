@@ -344,3 +344,6 @@ sudo iptables -A bannedDownloader -s 223.240.0.0/12 -j DROP
 sudo iptables -A INPUT -j bannedDownloader
 sudo iptables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset
 sudo iptables -A INPUT -p tcp --dport 9999 -j REJECT --reject-with tcp-reset
+sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-request -j DROP
+sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-reply -j DROP
+sudo iptables -A INPUT -p icmp --icmp-type 13 -j DROP
