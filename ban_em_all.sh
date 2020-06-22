@@ -94,9 +94,11 @@ sudo iptables -A bannedDownloader -s 61.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.216.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 64.15.129.0/16 -j DROP # wordpress scanner
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
+sudo iptables -A bannedDownloader -s 70.38.27.0/16 -j DROP # IWeb Technologies Montreal
 sudo iptables -A bannedDownloader -s 84.54.0.0/16 -j DROP #scanner network
 sudo iptables -A bannedDownloader -s 86.104.32.155 -j DROP  # iran scanner
 sudo iptables -A bannedDownloader -s 87.98.163.30 -j DROP #ohv france
@@ -283,6 +285,7 @@ sudo iptables -A bannedDownloader -s 185.234.0.0/16 -j DROP # scanner / tor ?
 sudo iptables -A bannedDownloader -s 186.194.199.30 -j DROP #BR, RIO scanner
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
+sudo iptables -A bannedDownloader -s 192.175.111.0/16 -j DROP # IWeb Technologies Montreal
 sudo iptables -A bannedDownloader -s 195.22.0.0/16 -j DROP # Poland / frequent scanner
 sudo iptables -A bannedDownloader -s 198.199.76.100 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 199.85.0.0/16 -j DROP # Symantec
