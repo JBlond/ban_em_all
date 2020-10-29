@@ -33,6 +33,21 @@ This simple script shows which rules have been used. So maybe over time you can 
 ./usage.sh
 ```
 
+or
+
+```bash
+make usage
+```
+
+### China blocking
+
+
+```bash
+make china
+```
+
+This will run the block list defined in china.sh. Do this only if you know what you are doing.
+
 ## Legacy warnings
 
 ```bash
