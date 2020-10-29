@@ -17,6 +17,7 @@ sudo iptables -A bannedDownloader -s 1.245.61.144  -j DROP # South Korea
 sudo iptables -A bannedDownloader -s 5.9.23.231  -j DROP # BLEXBot
 sudo iptables -A bannedDownloader -s 5.188.0.0/12  -j DROP # spam bot farm
 sudo iptables -A bannedDownloader -s 5.251.0.0/16  -j DROP # /checkrealtys
+sudo iptables -A bannedDownloader -s 13.68.200.228 -j DROP
 sudo iptables -A bannedDownloader -s 14.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.121.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.144.0.0/12 -j DROP
@@ -39,6 +40,7 @@ sudo iptables -A bannedDownloader -s 27.152.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 27.184.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 35.183.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 35.195.238.142 -j DROP # ssh attacker
+sudo iptables -A bannedDownloader -s 35.238.252.69 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 36.26.83.52 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 36.49.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.96.0.0/16 -j DROP
@@ -48,6 +50,8 @@ sudo iptables -A bannedDownloader -s 36.149.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 36.248.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 37.115.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 39.98.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 39.101.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 40.71.169.235 -j DROP
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
@@ -62,6 +66,7 @@ sudo iptables -A bannedDownloader -s 47.75.84.180 -j DROP # california usa
 sudo iptables -A bannedDownloader -s 47.92.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 47.93.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 47.95.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 47.113.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.82.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.88.0.0/16 -j DROP
@@ -101,6 +106,7 @@ sudo iptables -A bannedDownloader -s 64.15.129.0/16 -j DROP # wordpress scanner
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
+sudo iptables -A bannedDownloader -s 70.32.0.159 -j DROP
 sudo iptables -A bannedDownloader -s 70.38.27.0/16 -j DROP # IWeb Technologies Montreal
 sudo iptables -A bannedDownloader -s 84.54.0.0/16 -j DROP #scanner network
 sudo iptables -A bannedDownloader -s 86.104.32.155 -j DROP  # iran scanner
@@ -120,6 +126,7 @@ sudo iptables -A bannedDownloader -s 103.215.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.229.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.231.70.170 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 104.42.0.0/16 -j DROP # ??? Downloader of 404
+sudo iptables -A bannedDownloader -s 104.198.0.0/16 -j DROP # ??? Downloader of 404
 sudo iptables -A bannedDownloader -s 106.12.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.38.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.88.0.0/16 -j DROP
@@ -139,6 +146,7 @@ sudo iptables -A bannedDownloader -s 112.85.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.86.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.112.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.115.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 112.126.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 112.232.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.12.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 113.66.0.0/16 -j DROP
