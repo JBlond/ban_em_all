@@ -38,8 +38,10 @@ sudo iptables -A bannedDownloader -s 27.148.0.0/14 -j DROP
 sudo iptables -A bannedDownloader -s 27.151.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 27.152.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 27.184.0.0/12 -j DROP
+sudo iptables -A bannedDownloader -s 34.89.240.43 -j DROP # scanner
 sudo iptables -A bannedDownloader -s 35.183.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 35.195.238.142 -j DROP # ssh attacker
+sudo iptables -A bannedDownloader -s 35.1698.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 35.238.252.69 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 36.26.83.52 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 36.49.0.0/16 -j DROP
@@ -74,7 +76,7 @@ sudo iptables -A bannedDownloader -s 49.89.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.234.43.173 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 52.249.198.100  -j DROP # ssh attacker
-sudo iptables -A bannedDownloader -s 58.16.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 54.39.216.102 -j DROP
 sudo iptables -A bannedDownloader -s 58.19.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 58.42.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 58.50.0.0/16 -j DROP
