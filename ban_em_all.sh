@@ -54,12 +54,15 @@ sudo iptables -A bannedDownloader -s 37.115.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 39.98.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 39.101.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 40.71.169.235 -j DROP
+sudo iptables -A bannedDownloader -s 40.86.255.160 -j DROP # WP scanner
+sudo iptables -A bannedDownloader -s 40.120.36.240 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 43.225.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 45.10.88.238 -j DROP
 sudo iptables -A bannedDownloader -s 46.39.243.136 -j DROP
 sudo iptables -A bannedDownloader -s 46.102.0.0/16 -j DROP # ROMANIA BOT NET
 sudo iptables -A bannedDownloader -s 46.118.124.104 -j DROP
@@ -75,6 +78,7 @@ sudo iptables -A bannedDownloader -s 49.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.89.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.234.43.173 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker
+sudo iptables -A bannedDownloader -s 51.104.34.42 -j DROP # UK based server scanner
 sudo iptables -A bannedDownloader -s 52.249.198.100  -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 54.39.216.102 -j DROP
 sudo iptables -A bannedDownloader -s 58.19.0.0/16 -j DROP
@@ -108,8 +112,9 @@ sudo iptables -A bannedDownloader -s 64.15.129.0/16 -j DROP # wordpress scanner
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
-sudo iptables -A bannedDownloader -s 70.32.0.159 -j DROP
+sudo iptables -A bannedDownloader -s 70.32.0.0/16 -j DROP #scanner farm
 sudo iptables -A bannedDownloader -s 70.38.27.0/16 -j DROP # IWeb Technologies Montreal
+sudo iptables -A bannedDownloader -s 77.20.0.0/16 -j DROP # found massive in mod_security log 
 sudo iptables -A bannedDownloader -s 84.54.0.0/16 -j DROP #scanner network
 sudo iptables -A bannedDownloader -s 86.104.32.155 -j DROP  # iran scanner
 sudo iptables -A bannedDownloader -s 87.98.163.30 -j DROP #ohv france
@@ -129,6 +134,7 @@ sudo iptables -A bannedDownloader -s 103.229.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.231.70.170 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 104.42.0.0/16 -j DROP # ??? Downloader of 404
 sudo iptables -A bannedDownloader -s 104.198.0.0/16 -j DROP # ??? Downloader of 404
+sudo iptables -A bannedDownloader -s 104.214.0.0/16 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 106.12.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.38.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 106.88.0.0/16 -j DROP
@@ -298,6 +304,7 @@ sudo iptables -A bannedDownloader -s 185.198.58.115 -j DROP #romania scanner
 sudo iptables -A bannedDownloader -s 185.234.0.0/16 -j DROP # scanner / tor ?
 sudo iptables -A bannedDownloader -s 185.236.0.0/16 -j DROP # scanner / tor ?
 sudo iptables -A bannedDownloader -s 186.194.199.30 -j DROP #BR, RIO scanner
+sudo iptables -A bannedDownloader -s 187.189.158.70 -j DROP #MX, Nezahualcóyotl 
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
 sudo iptables -A bannedDownloader -s 192.175.111.0/16 -j DROP # IWeb Technologies Montreal
@@ -314,6 +321,7 @@ sudo iptables -A bannedDownloader -s 202.110.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.121.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 203.195.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 209.97.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 209.250.0.0/16 -j DROP #server farm
 sudo iptables -A bannedDownloader -s 210.13.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 210.36.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 211.81.0.0/16  -j DROP
