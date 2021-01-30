@@ -253,6 +253,7 @@ sudo iptables -A bannedDownloader -s 125.95.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 128.199.0.0/16 -j DROP # singapure
+sudo iptables -A bannedDownloader -s 129.213.31.250  -j DROP # vul scanner portland USA
 sudo iptables -A bannedDownloader -s 134.122.96.20 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 139.155.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 139.227.0.0/16 -j DROP
