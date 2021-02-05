@@ -113,7 +113,6 @@ sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner califor
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
 sudo iptables -A bannedDownloader -s 70.32.0.0/16 -j DROP #scanner farm
-sudo iptables -A bannedDownloader -s 77.20.0.0/16 -j DROP # found massive in mod_security log 
 sudo iptables -A bannedDownloader -s 84.54.0.0/16 -j DROP #scanner network
 sudo iptables -A bannedDownloader -s 86.104.32.155 -j DROP  # iran scanner
 sudo iptables -A bannedDownloader -s 87.98.163.30 -j DROP #ohv france
