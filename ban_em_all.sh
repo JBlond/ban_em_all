@@ -23,6 +23,7 @@ sudo iptables -A bannedDownloader -s 14.120.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.121.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 14.144.0.0/12 -j DROP
 sudo iptables -A bannedDownloader -s 14.208.0.0/12 -j DROP
+sudo iptables -A bannedDownloader -s 20.52.134.161 -j DROP # US web site hacker
 sudo iptables -A bannedDownloader -s 23.80.54.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 23.104.141.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 23.105.14.0/24 -j DROP
@@ -311,6 +312,7 @@ sudo iptables -A bannedDownloader -s 186.194.199.30 -j DROP #BR, RIO scanner
 sudo iptables -A bannedDownloader -s 187.189.158.70 -j DROP #MX, Nezahualcóyotl 
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
+sudo iptables -A bannedDownloader -s 193.142.146.4 -j DROP # website hacker
 sudo iptables -A bannedDownloader -s 195.22.0.0/16 -j DROP # Poland / frequent scanner
 sudo iptables -A bannedDownloader -s 195.54.0.0/16 -j DROP # frequent scanner
 sudo iptables -A bannedDownloader -s 198.199.76.100 -j DROP # ssh attacker
