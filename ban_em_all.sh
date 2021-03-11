@@ -112,6 +112,7 @@ sudo iptables -A bannedDownloader -s 61.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.216.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 62.16.6.105 -j DROP #spamer odessa
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
 sudo iptables -A bannedDownloader -s 62.210.180.146  -j DROP # spammer
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
@@ -317,6 +318,7 @@ sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montrea
 sudo iptables -A bannedDownloader -s 193.142.146.4 -j DROP # website hacker
 sudo iptables -A bannedDownloader -s 195.22.0.0/16 -j DROP # Poland / frequent scanner
 sudo iptables -A bannedDownloader -s 195.54.0.0/16 -j DROP # frequent scanner
+sudo iptables -A bannedDownloader -s 195.154.242.89 -j DROP # spammer
 sudo iptables -A bannedDownloader -s 198.199.76.100 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 199.85.0.0/16 -j DROP # Symantec
 sudo iptables -A bannedDownloader -s 202.46.0.0/16 -j DROP
