@@ -1,8 +1,10 @@
+sudo iptables -A bannedDownloader -s 220.66.155.2 -j DROP
 sudo iptables -A bannedDownloader -s 220.160.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.181.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 220.203.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 220.225.7.81 -j DROP
 
 sudo iptables -A bannedDownloader -s 221.229.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 221.0.0.0/8 -j DROP
