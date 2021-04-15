@@ -1,0 +1,44 @@
+sudo iptables -A bannedDownloader -s 120.0.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.6.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.31.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.52.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.84.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.202.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.203.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.209.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.221.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 120.237.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 121.0.0.0/8  -j DROP
+sudo iptables -A bannedDownloader -s 122.10.133.5/32 -j DROP
+sudo iptables -A bannedDownloader -s 122.143.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 122.165.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 122.206.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 122.224.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 122.225.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 123.14.0.0/16  -j DROP
+sudo iptables -A bannedDownloader -s 123.56.0.0/16  -j DROP # web site scanner farm
+sudo iptables -A bannedDownloader -s 123.112.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.121.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.125.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.139.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.151.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.180.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 123.207.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.89.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.93.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.95.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.114.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.117.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.167.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.166.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.192.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 124.234.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.64.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.65.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.70.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.81.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.95.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.111.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 125.115.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 128.199.0.0/16 -j DROP # singapure
+sudo iptables -A bannedDownloader -s 129.213.31.250  -j DROP # vul scanner portland USA
