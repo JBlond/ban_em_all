@@ -1,7 +1,11 @@
 sudo iptables -A bannedDownloader -s 60.24.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 60.179.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 60.247.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 60.248.249.190 -j DROP
+sudo iptables -A bannedDownloader -s 60.249.217.225 -j DROP
+sudo iptables -A bannedDownloader -s 60.249.94.193 -j DROP
 
+sudo iptables -A bannedDownloader -s 61.12.67.132 -j DROP
 sudo iptables -A bannedDownloader -s 61.47.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.54.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.131.0.0/16 -j DROP
@@ -13,9 +17,15 @@ sudo iptables -A bannedDownloader -s 61.173.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.175.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.178.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 61.216.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 61.219.114.108 -j DROP
 
 sudo iptables -A bannedDownloader -s 62.16.6.105 -j DROP #spamer odessa
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
 sudo iptables -A bannedDownloader -s 62.210.180.146  -j DROP # spammer
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
+
+sudo iptables -A bannedDownloader -s 63.143.98.57 -j DROP
+
+sudo iptables -A bannedDownloader -s 69.12.66.251 -j DROP
+sudo iptables -A bannedDownloader -s 69.75.133.122 -j DROP
