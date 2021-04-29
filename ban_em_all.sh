@@ -3,28 +3,28 @@ sudo iptables -F INPUT
 sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
 sudo iptables -N bannedDownloader
-./00x.sh
-./01x.sh
-./02x.sh
-./03x.sh
-./04x.sh
-./05x.sh
-./06x.sh
-./07x.sh
-./08x.sh
-./09x.sh
-./10x.sh
-./11x.sh
-./12x.sh
-./13x.sh
-./14x.sh
-./15x.sh
-./16x.sh
-./17x.sh
-./18x.sh
-./19x.sh
-./20x.sh
-./21x.sh
+./blocks/00x.sh
+./blocks/01x.sh
+./blocks/02x.sh
+./blocks/03x.sh
+./blocks/04x.sh
+./blocks/05x.sh
+./blocks/06x.sh
+./blocks/07x.sh
+./blocks/08x.sh
+./blocks/09x.sh
+./blocks/10x.sh
+./blocks/11x.sh
+./blocks/12x.sh
+./blocks/13x.sh
+./blocks/14x.sh
+./blocks/15x.sh
+./blocks/16x.sh
+./blocks/17x.sh
+./blocks/18x.sh
+./blocks/19x.sh
+./blocks/20x.sh
+./blocks/21x.sh
 sudo iptables -A INPUT -j bannedDownloader
 sudo iptables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset #mysql
 sudo iptables -A INPUT -p tcp --dport 8086 -j REJECT --reject-with tcp-reset #influxdb prod
