@@ -16,7 +16,7 @@ all:
 	@git pull
 	@./ban_em_all.sh
 	@./china.sh
-	@:./immuniweb.sh
+	@./immuniweb.sh
 
 usage:
 	@echo ""
