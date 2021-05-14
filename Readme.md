@@ -8,7 +8,7 @@ Where is the attacking IP localed? Try www.utrace.de
 ## install
 
 ```bash
-sudo apt-get install git fail2ban
+sudo apt-get install git fail2ban make
 git clone https://github.com/JBlond/ban_em_all.git ban
 cd ban
 make
