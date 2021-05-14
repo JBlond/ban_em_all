@@ -12,7 +12,7 @@ sudo iptables -A bannedDownloader -s 1.204.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 1.209.171.34 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 1.245.61.144  -j DROP # South Korea
 
-
+sudo iptables -A bannedDownloader -s 2.35.211.124 -j DROP
 sudo iptables -A bannedDownloader -s 2.50.135.168 -j DROP
 sudo iptables -A bannedDownloader -s 2.51.1.61 -j DROP
 
