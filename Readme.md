@@ -32,17 +32,10 @@ make
 This simple script shows which rules have been used. So maybe over time you can optimize / shorten the list of blocked IPs for your system.
 
 ```bash
-./usage.sh
-```
-
-or
-
-```bash
 make usage
 ```
 
 ### China blocking
-
 
 ```bash
 make china
@@ -50,7 +43,6 @@ make china
 This will run the block list defined in china.sh. Do this only if you know what you are doing.
 
 ### immuni web scanning 
-
 
 ```bash
 make immuniweb
@@ -61,8 +53,6 @@ make immuniweb
 ```bash
 make all
 ```
-
-
 
 ## Legacy warnings
 
