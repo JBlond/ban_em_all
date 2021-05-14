@@ -3,6 +3,8 @@
 Ban / Block IPs via Iptables from your system.
 The current list contains IP and or IP ranges that tried to break in servers, did massive scans, DDOS'ed the webserver, downloaded a single file from the webserver a gazillion times, brute force attacks on sshd, etc.
 
+Where is the attacking IP localed? Try www.utrace.de
+
 ## install
 
 ```bash
@@ -45,8 +47,22 @@ make usage
 ```bash
 make china
 ```
-
 This will run the block list defined in china.sh. Do this only if you know what you are doing.
+
+### immuni web scanning 
+
+
+```bash
+make immuniweb
+```
+
+## Blocking all
+
+```bash
+make all
+```
+
+
 
 ## Legacy warnings
 
