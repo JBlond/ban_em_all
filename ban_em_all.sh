@@ -26,9 +26,7 @@ sudo iptables -N bannedDownloader
 ./blocks/20x.sh
 ./blocks/21x.sh
 sudo iptables -A INPUT -j bannedDownloader
-sudo iptables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset #mysql
-sudo iptables -A INPUT -p tcp --dport 8086 -j REJECT --reject-with tcp-reset #influxdb prod
-sudo iptables -A INPUT -p tcp --dport 9999 -j REJECT --reject-with tcp-reset #influxdb dev
+./services.sh
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-request -j DROP
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-reply -j DROP
 sudo iptables -A INPUT -p icmp --icmp-type 13 -j DROP
