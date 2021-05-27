@@ -5,7 +5,7 @@ sudo ip6tables -N bannedDownloader
 
 # the IPv6 are not sorted ... 
 
-2405:201:f00c:f00b:4827:b2c6:90da:5412 -j DROP
+sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:4827:b2c6:90da:5412 -j DROP
 
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:1ca9:e888:4fa:38d9 -j DROP
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:c169:cceb:1281:5376  -j DROP
