@@ -20,6 +20,9 @@ sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:4cc8:25d7:6173:a04d -j D
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:704b:8692:a131:f399 -j DROP
 
 sudo ip6tables -A INPUT -j bannedDownloader
+sudo ip6tables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local
 sudo ip6tables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset #mysql
+sudo ip6tables -A INPUT -p tcp -s localhost --dport 8086 -j ACCEPT #influxdb prod allow local
 sudo ip6tables -A INPUT -p tcp --dport 8086 -j REJECT --reject-with tcp-reset #influxdb prod
+sudo ip6tables -A INPUT -p tcp -s localhost --dport 9999 -j ACCEPT #influxdb dev allow local
 sudo ip6tables -A INPUT -p tcp --dport 9999 -j REJECT --reject-with tcp-reset #influxdb dev
