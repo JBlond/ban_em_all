@@ -32,3 +32,4 @@ sudo iptables -A INPUT -p tcp --dport 9999 -j REJECT --reject-with tcp-reset #in
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-request -j DROP
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-reply -j DROP
 sudo iptables -A INPUT -p icmp --icmp-type 13 -j DROP
+./blocksv6/ipv6.sh

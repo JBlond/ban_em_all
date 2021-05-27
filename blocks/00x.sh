@@ -28,3 +28,5 @@ sudo iptables -A bannedDownloader -s 5.11.134.152 -j DROP
 sudo iptables -A bannedDownloader -s 5.173.235.4 -j DROP
 sudo iptables -A bannedDownloader -s 5.188.0.0/12  -j DROP # spam bot farm
 sudo iptables -A bannedDownloader -s 5.251.0.0/16  -j DROP # /checkrealtys
+
+sudo iptables -A bannedDownloader -s 8.210.152.5 -j DROP
