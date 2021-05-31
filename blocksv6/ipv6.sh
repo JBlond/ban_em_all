@@ -5,6 +5,9 @@ sudo ip6tables -N bannedDownloader
 
 # the IPv6 are not sorted ... 
 
+sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:b18f:f010:8d72:5aac -j DROP
+sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:a848:1db0:3ed3:48ce -j DROP
+
 sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:4827:b2c6:90da:5412 -j DROP
 
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:1ca9:e888:4fa:38d9 -j DROP
@@ -18,6 +21,17 @@ sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:7c2d:4bbb:510:40c6 -j DR
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:8ca5:57f0:508b:4c49 -j DROP
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:4cc8:25d7:6173:a04d -j DROP
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:704b:8692:a131:f399 -j DROP
+
+sudo ip6tables -A bannedDownloader -s 2806:109f:f:3e1d:994:b05d:db43:6efc -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:a1f5:a604:c90a:b817 -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:f5f5:b8d5:8ba:2219 -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:a1f5:a604:c90a:b817 -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:352e:e7:e7e8:2e21 -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:b4a1:e83:5034:fe9d -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:fc5a:38a4:d5ac:2a29 -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:bdbe:67b9:ef6c:74ef -j DROP
+sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:5578:fa0c:634f:fac -j DROP
+
 
 sudo ip6tables -A INPUT -j bannedDownloader
 sudo ip6tables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local
