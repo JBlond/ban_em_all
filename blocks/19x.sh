@@ -17,6 +17,7 @@ sudo iptables -A bannedDownloader -s 190.249.147.162 -j DROP
 sudo iptables -A bannedDownloader -s 190.249.155.222 -j DROP 
 sudo iptables -A bannedDownloader -s 190.249.184.65 -j DROP
 
+sudo iptables -A bannedDownloader -s 191.83.34.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 191.97.4.238 -j DROP
 sudo iptables -A bannedDownloader -s 191.97.10.25 -j DROP
 sudo iptables -A bannedDownloader -s 191.97.12.212 -j DROP
@@ -29,7 +30,6 @@ sudo iptables -A bannedDownloader -s 191.102.120.114 -j DROP
 sudo iptables -A bannedDownloader -s 191.102.120.117 -j DROP
 sudo iptables -A bannedDownloader -s 191.102.120.145 -j DROP
 sudo iptables -A bannedDownloader -s 191.102.120.38 -j DROP
-
 
 sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montreal
 
