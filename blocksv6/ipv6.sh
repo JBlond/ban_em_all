@@ -39,6 +39,8 @@ sudo ip6tables -A bannedDownloader -s 2a02:8108:54bf:fd4c:e928:2352:db47:8f3b -j
 
 
 sudo ip6tables -A INPUT -j bannedDownloader
+sudo ip6tables -A INPUT -p udp -s localhost --dport 123 -j ACCEPT #ntp allow local
+sudo ip6tables -A INPUT -p udp --dport 123 -j REJECT --reject-with tcp-reset #ntp
 sudo ip6tables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local
 sudo ip6tables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset #mysql
 sudo ip6tables -A INPUT -p tcp -s localhost --dport 8086 -j ACCEPT #influxdb prod allow local
