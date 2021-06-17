@@ -3,6 +3,7 @@ sudo iptables -A bannedDownloader -s 40.86.255.160 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 40.120.36.240 -j DROP # WP scanner
 
 sudo iptables -A bannedDownloader -s 41.39.79.194 -j DROP
+sudo iptables -A bannedDownloader -s 41.47.138.104 -j DROP
 sudo iptables -A bannedDownloader -s 41.185.8.148 -j DROP
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 

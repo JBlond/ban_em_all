@@ -28,6 +28,7 @@ sudo iptables -A bannedDownloader -s 85.243.134.107 -j DROP
 sudo iptables -A bannedDownloader -s 85.85.240.246 -j DROP
 sudo iptables -A bannedDownloader -s 85.98.44.116 -j DROP
 
+sudo iptables -A bannedDownloader -s 86.32.49.63  -j DROP # WP hacker
 sudo iptables -A bannedDownloader -s 86.57.236.67 -j DROP
 
 sudo iptables -A bannedDownloader -s 87.17.48.223 -j DROP
