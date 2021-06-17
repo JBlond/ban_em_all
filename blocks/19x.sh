@@ -1,23 +1,24 @@
 sudo iptables -A bannedDownloader -s 190.3.194.237 -j DROP
 sudo iptables -A bannedDownloader -s 190.3.205.213 -j DROP
-sudo iptables -A bannedDownloader -s 190.13.106.108 -j DROP 
+sudo iptables -A bannedDownloader -s 190.13.106.108 -j DROP
 sudo iptables -A bannedDownloader -s 190.23.201.162 -j DROP # paraguay
 sudo iptables -A bannedDownloader -s 190.29.111.9 -j DROP
 sudo iptables -A bannedDownloader -s 190.80.159.182 -j DROP
 sudo iptables -A bannedDownloader -s 190.83.166.70 -j DROP
-sudo iptables -A bannedDownloader -s 190.100.38.133 -j DROP 
+sudo iptables -A bannedDownloader -s 190.100.38.133 -j DROP
 sudo iptables -A bannedDownloader -s 190.129.143.30 -j DROP
 sudo iptables -A bannedDownloader -s 190.180.27.177 -j DROP
-sudo iptables -A bannedDownloader -s 190.214.15.46 -j DROP 
+sudo iptables -A bannedDownloader -s 190.214.15.46 -j DROP
 sudo iptables -A bannedDownloader -s 190.218.15.60 -j DROP
 sudo iptables -A bannedDownloader -s 190.218.192.201 -j DROP
-sudo iptables -A bannedDownloader -s 190.234.75.243 -j DROP 
-sudo iptables -A bannedDownloader -s 190.249.139.250 -j DROP 
-sudo iptables -A bannedDownloader -s 190.249.147.162 -j DROP 
-sudo iptables -A bannedDownloader -s 190.249.155.222 -j DROP 
+sudo iptables -A bannedDownloader -s 190.234.75.243 -j DROP
+sudo iptables -A bannedDownloader -s 190.249.139.250 -j DROP
+sudo iptables -A bannedDownloader -s 190.249.147.162 -j DROP
+sudo iptables -A bannedDownloader -s 190.249.155.222 -j DROP
 sudo iptables -A bannedDownloader -s 190.249.184.65 -j DROP
 
 sudo iptables -A bannedDownloader -s 191.83.34.0/24 -j DROP
+sudo iptables -A bannedDownloader -s 191.83.36.0/24 -j DROP  # la plata argentinia
 sudo iptables -A bannedDownloader -s 191.97.4.238 -j DROP
 sudo iptables -A bannedDownloader -s 191.97.10.25 -j DROP
 sudo iptables -A bannedDownloader -s 191.97.12.212 -j DROP
