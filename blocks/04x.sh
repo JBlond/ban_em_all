@@ -43,5 +43,5 @@ sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.82.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.88.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 49.89.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 49.232.70.69
+sudo iptables -A bannedDownloader -s 49.232.70.69 -j DROP
 sudo iptables -A bannedDownloader -s 49.234.43.173 -j DROP # ssh attacker
