@@ -23,6 +23,7 @@ sudo iptables -A bannedDownloader -s 212.156.0.0/12 -j DROP # Turky
 
 sudo iptables -A bannedDownloader -s 213.154.2.42 -j DROP
 
+sudo iptables -A bannedDownloader -s 216.13.26.79 -j DROP
 sudo iptables -A bannedDownloader -s 216.250.254.209 -j DROP
 
 sudo iptables -A bannedDownloader -s 217.25.113.79 -j DROP

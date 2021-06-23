@@ -16,12 +16,15 @@ sudo iptables -A bannedDownloader -s 176.36.201.10 -j DROP
 sudo iptables -A bannedDownloader -s 176.113.226.68 -j DROP 
 sudo iptables -A bannedDownloader -s 173.212.214.137 -j DROP # Exim malware server
 sudo iptables -A bannedDownloader -s 173.249.35.108 -j DROP
-sudo iptables -A bannedDownloader -s 176.113.227.152 -j DROP
+
+
 
 sudo iptables -A bannedDownloader -s 175.24.22.230 -j DROP # ssh attacker
+sudo iptables -A bannedDownloader -s 175.125.94.166 -j DROP
 
 sudo iptables -A bannedDownloader -s 176.9.63.48 -j DROP
 sudo iptables -A bannedDownloader -s 176.37.248.76 -j DROP
+sudo iptables -A bannedDownloader -s 176.113.227.152 -j DROP
 
 sudo iptables -A bannedDownloader -s 177.19.164.149 -j DROP
 sudo iptables -A bannedDownloader -s 177.19.165.26 -j DROP 
