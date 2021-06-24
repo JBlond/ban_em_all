@@ -6,6 +6,7 @@ install:
 china:
 	@echo ""
 	@./china.sh
+	@./chinav6.sh
 
 immuniweb:
 	@echo ''
@@ -16,6 +17,7 @@ all:
 	@git pull
 	@./ban_em_all.sh
 	@./china.sh
+	@./chinav6.sh
 	@./immuniweb.sh
 
 usage:
