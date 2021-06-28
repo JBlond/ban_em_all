@@ -7,8 +7,11 @@ sudo ip6tables -N bannedDownloader
 
 sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:b18f:f010:8d72:5aac -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:a848:1db0:3ed3:48ce -j DROP
-
+sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:a403:a953:d30f:8304 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:201:f00c:f00b:4827:b2c6:90da:5412 -j DROP
+
+sudo ip6tables -A bannedDownloader -s 2601:2c1:8702:5d80:2812:89b5:dc57:1bd -j DROP
+sudo ip6tables -A bannedDownloader -s 2601:2c1:8702:5d80:a4f0:2789:6aad:733 -j DROP
 
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:1ca9:e888:4fa:38d9 -j DROP
 sudo ip6tables -A bannedDownloader -s 2806:2f0:2100:c29:c169:cceb:1281:5376  -j DROP

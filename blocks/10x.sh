@@ -52,4 +52,5 @@ sudo iptables -A bannedDownloader -s 108.58.123.210 -j DROP
 sudo iptables -A bannedDownloader -s 108.162.28.6 -j DROP
 
 sudo iptables -A bannedDownloader -s 109.87.0.0/16 -j DROP # ukraine
+sudo iptables -A bannedDownloader -s 109.93.54.211 -j DROP
 sudo iptables -A bannedDownloader -s 109.197.248.233 -j DROP
