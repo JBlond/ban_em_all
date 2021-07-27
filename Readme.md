@@ -25,6 +25,7 @@ make
 ```bash
 ./now.sh 5.9.23.231
 ./now.sh 1.81.0.0/16
+./now6.sh 2406:9DC0:6669::/48
 ```
 
 ## usage
@@ -52,6 +53,18 @@ make immuniweb
 
 ```bash
 make all
+```
+
+## Create your list
+
+After using one or the other list of this repository and adding IPs with now and now6, you may want to export that exact list
+
+```bash
+make list
+
+# or
+
+make list > mylist.txt 
 ```
 
 ## Legacy warnings

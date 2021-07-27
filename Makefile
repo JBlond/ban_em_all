@@ -25,3 +25,8 @@ all:
 usage:
 	@echo ""
 	@./usage.sh
+
+list:
+	@echo ""
+	@sudo iptables -S
+	@echo ""
