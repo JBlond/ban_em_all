@@ -67,6 +67,10 @@ make list
 make list > mylist.txt 
 ```
 
+### Still need more?
+
+Also a good place to look for certain IPs is <https://www.ip2location.com/free/visitor-blocker>
+
 ## Legacy warnings
 
 ```bash
