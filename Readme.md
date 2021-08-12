@@ -41,9 +41,10 @@ make usage
 ```bash
 make china
 ```
+
 This will run the block list defined in china.sh. Do this only if you know what you are doing.
 
-### immuni web scanning 
+### immuni web scanning
 
 ```bash
 make immuniweb
