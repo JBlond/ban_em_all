@@ -22,6 +22,17 @@ all:
 	@./china_min.sh
 	@./immuniweb.sh
 
+insane:
+	@echo ''
+	@echo 'it might better to have a white list at this point ...'
+	@echo ''
+	@git pull
+	@./ban_em_all.sh
+	@./china_min.sh
+	@./immuniweb.sh
+	@./china.sh
+	@./chinav6.sh
+
 usage:
 	@echo ""
 	@./usage.sh

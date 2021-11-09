@@ -40,6 +40,7 @@ make usage
 
 ```bash
 make china
+make chinav6
 ```
 
 This will run the block list defined in china.sh. Do this only if you know what you are doing.
