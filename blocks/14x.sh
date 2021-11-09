@@ -7,6 +7,7 @@ sudo iptables -A bannedDownloader -s 142.44.211.127 -j DROP
 sudo iptables -A bannedDownloader -s 142.179.224.4 -j DROP
 
 sudo iptables -A bannedDownloader -s 143.59.208.91 -j DROP 
+sudo iptables -A bannedDownloader -s 143.244.45.138 -j DROP 
 
 sudo iptables -A bannedDownloader -s 148.122.187.2 -j DROP
 sudo iptables -A bannedDownloader -s 148.251.211.145 -j DROP # SQL injection
