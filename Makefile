@@ -24,7 +24,7 @@ all:
 
 insane:
 	@echo ''
-	@echo 'it might better to have a white list at this point ...'
+	@echo 'it might be better to have a white list at this point ...'
 	@echo ''
 	@git pull
 	@./ban_em_all.sh
