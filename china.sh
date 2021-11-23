@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo -e " \e[32mBlock all CHINA IPv4\e[0m"
 sudo iptables -A bannedDownloader -s 1.0.1.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 1.0.2.0/23 -j DROP
 sudo iptables -A bannedDownloader -s 1.0.8.0/21 -j DROP

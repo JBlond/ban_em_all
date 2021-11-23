@@ -1,3 +1,4 @@
+echo -e " \e[32mBlock 5x.x\e[0m"
 sudo iptables -A bannedDownloader -s 50.230.160.35 -j DROP
 
 sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker

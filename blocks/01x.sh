@@ -1,3 +1,4 @@
+echo -e " \e[32mBlock 1x.x\e[0m"
 sudo iptables -A bannedDownloader -s 13.48.53.51 -j DROP
 sudo iptables -A bannedDownloader -s 13.53.208.18 -j DROP
 sudo iptables -A bannedDownloader -s 13.58.56.77 -j DROP

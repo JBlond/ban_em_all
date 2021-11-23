@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo -e " \e[32mBlock China min IPv4\e[0m"
 sudo iptables -A bannedDownloader -s 23.80.54.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 27.8.0.0/13 -j DROP
 sudo iptables -A bannedDownloader -s 27.16.0.0/12 -j DROP

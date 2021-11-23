@@ -1,3 +1,4 @@
+echo -e " \e[32mBlock 7x.x\e[0m"
 sudo iptables -A bannedDownloader -s 70.32.0.0/16 -j DROP #scanner farm
 sudo iptables -A bannedDownloader -s 70.127.209.1 -j DROP
 

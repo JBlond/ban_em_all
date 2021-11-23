@@ -1,3 +1,4 @@
+echo -e " \e[32mBlock IPv6\e[0m"
 sudo ip6tables -F INPUT
 sudo ip6tables --flush bannedDownloader
 sudo ip6tables -X bannedDownloader

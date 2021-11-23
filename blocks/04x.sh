@@ -1,3 +1,4 @@
+echo -e " \e[32mBlock 4x.x\e[0m"
 sudo iptables -A bannedDownloader -s 40.71.169.235 -j DROP
 sudo iptables -A bannedDownloader -s 40.86.255.160 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 40.120.36.240 -j DROP # WP scanner

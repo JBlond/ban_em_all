@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo -e " \e[32mBlock immuni web scanner\e[0m"
 sudo iptables -A bannedDownloader -s 64.15.129.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 70.38.27.240/28 -j DROP
 sudo iptables -A bannedDownloader -s 72.55.136.144/28 -j DROP

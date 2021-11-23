@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo -e " \e[32mBlock China IPv6\e[0m"
 sudo ip6tables -A bannedDownloader -s 2001:250::/30 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:254::/31 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:256::/32 -j DROP
