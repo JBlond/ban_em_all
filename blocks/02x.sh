@@ -3,7 +3,7 @@ sudo iptables -A bannedDownloader -s 20.40.82.104 -j DROP
 sudo iptables -A bannedDownloader -s 20.52.134.161 -j DROP # US web site hacker
 sudo iptables -A bannedDownloader -s 20.80.1.21 -j DROP
 sudo iptables -A bannedDownloader -s 20.185.83.210 -j DROP
-sudo iptables -A bannedDownloader -s 2020.203.168.56 -j DROP #spammer
+sudo iptables -A bannedDownloader -s 20.203.168.56 -j DROP #spammer
 
 sudo iptables -A bannedDownloader -s 23.80.54.0/24 -j DROP
 sudo iptables -A bannedDownloader -s 23.104.141.0/24 -j DROP
