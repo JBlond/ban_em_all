@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo -e " \e[32mBlock China IPv6\e[0m"
-echo -e " \e[32mBlock 2001.x\e[0m"
+echo -e " \e[32mBlock 2001:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2001:250::/30 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:254::/31 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:256::/32 -j DROP
@@ -187,7 +187,7 @@ sudo ip6tables -A bannedDownloader -s 2001:2000:3080:C80::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:2030:0:4D::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:4438::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2001:4510::/29 -j DROP
-echo -e " \e[32mBlock 2400.x\e[0m"
+echo -e " \e[32mBlock 2400:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2400:1040::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2400:12C0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2400:1340::/32 -j DROP
@@ -422,7 +422,7 @@ sudo ip6tables -A bannedDownloader -s 2400:FBC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2400:FC40::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2400:FCC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2400:FE00::/32 -j DROP
-echo -e " \e[32mBlock 2401.x\e[0m"
+echo -e " \e[32mBlock 2401:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2401:80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2401:140::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2401:1C0::/32 -j DROP
@@ -896,7 +896,7 @@ sudo ip6tables -A bannedDownloader -s 2401:FE80:2000::/35 -j DROP
 sudo ip6tables -A bannedDownloader -s 2401:FE80:4000::/34 -j DROP
 sudo ip6tables -A bannedDownloader -s 2401:FE80:8000::/33 -j DROP
 sudo ip6tables -A bannedDownloader -s 2401:FFC0::/32 -j DROP
-echo -e " \e[32mBlock 2402.x\e[0m"
+echo -e " \e[32mBlock 2402:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2402:440::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2402:5C0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2402:840::/32 -j DROP
@@ -1280,7 +1280,7 @@ sudo ip6tables -A bannedDownloader -s 2402:FAC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2402:FCC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2402:FF40::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2402:FFC0::/32 -j DROP
-echo -e " \e[32mBlock 2403.x\e[0m"
+echo -e " \e[32mBlock 2403:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2403:600::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2403:700::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2403:7C0::/32 -j DROP
@@ -1604,7 +1604,7 @@ sudo ip6tables -A bannedDownloader -s 2403:FE80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2403:FEC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2403:FF80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2403:FFC0::/32 -j DROP
-echo -e " \e[32mBlock 2404.x\e[0m"
+echo -e " \e[32mBlock 2404:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2404:100::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2404:158::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2404:240::/32 -j DROP
@@ -1828,7 +1828,7 @@ sudo ip6tables -A bannedDownloader -s 2404:F4C0:FFF2::/47 -j DROP
 sudo ip6tables -A bannedDownloader -s 2404:F4C0:FFF4::/46 -j DROP
 sudo ip6tables -A bannedDownloader -s 2404:F4C0:FFF8::/45 -j DROP
 sudo ip6tables -A bannedDownloader -s 2404:F7C0::/32 -j DROP
-echo -e " \e[32mBlock 2405.x\e[0m"
+echo -e " \e[32mBlock 2405:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2405:80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:480::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:580::/32 -j DROP
@@ -2159,7 +2159,7 @@ sudo ip6tables -A bannedDownloader -s 2405:FDC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:FE80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:FEC0::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2405:FF80::/32 -j DROP
-echo -e " \e[32mBlock 2406.x\e[0m"
+echo -e " \e[32mBlock 2406:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2406:40::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2406:80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2406:C0::/32 -j DROP
@@ -2583,7 +2583,7 @@ sudo ip6tables -A bannedDownloader -s 2406:FC80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2406:FD80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2406:FE80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2406:FF00::/32 -j DROP
-echo -e " \e[32mBlock 2407.x\e[0m"
+echo -e " \e[32mBlock 2407:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2407:480::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2407:580::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2407:CC0::/32 -j DROP
@@ -2738,7 +2738,7 @@ sudo ip6tables -A bannedDownloader -s 2407:FA80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2407:FB80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2407:FC80::/32 -j DROP
 sudo ip6tables -A bannedDownloader -s 2407:FD80::/32 -j DROP
-echo -e " \e[32mBlock 2408.x\e[0m"
+echo -e " \e[32mBlock 2408:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2408:4000::/22 -j DROP
 sudo ip6tables -A bannedDownloader -s 2408:6000::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 2408:8000::/23 -j DROP
@@ -2955,7 +2955,7 @@ sudo ip6tables -A bannedDownloader -s 2408:84F8::/29 -j DROP
 sudo ip6tables -A bannedDownloader -s 2408:8500::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 2408:8600::/23 -j DROP
 sudo ip6tables -A bannedDownloader -s 2408:8800::/21 -j DROP
-echo -e " \e[32mBlock 2409.x\e[0m"
+echo -e " \e[32mBlock 2409:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2409:2000::/21 -j DROP
 sudo ip6tables -A bannedDownloader -s 2409:6000::/20 -j DROP
 sudo ip6tables -A bannedDownloader -s 2409:8000::/21 -j DROP
@@ -2986,7 +2986,7 @@ sudo ip6tables -A bannedDownloader -s 2409:8A60::/27 -j DROP
 sudo ip6tables -A bannedDownloader -s 2409:8A80::/25 -j DROP
 sudo ip6tables -A bannedDownloader -s 2409:8B00::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 2409:8C00::/22 -j DROP
-echo -e " \e[32mBlock 240A.x\e[0m"
+echo -e " \e[32mBlock 240A:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 240A:2000::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 240A:4000::/21 -j DROP
 sudo ip6tables -A bannedDownloader -s 240A:6000::/24 -j DROP
@@ -3004,7 +3004,7 @@ sudo ip6tables -A bannedDownloader -s 240E::/18 -j DROP
 sudo ip6tables -A bannedDownloader -s 240F:4000::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 240F:8000::/24 -j DROP
 sudo ip6tables -A bannedDownloader -s 240F:C000::/24 -j DROP
-echo -e " \e[32mBlock 2602.x\e[0m"
+echo -e " \e[32mBlock 2602:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2602:FED2:710F::/48 -j DROP
 sudo ip6tables -A bannedDownloader -s 2602:FED2:7302::/47 -j DROP
 sudo ip6tables -A bannedDownloader -s 2602:FEDA:20::/44 -j DROP
@@ -3042,7 +3042,7 @@ sudo ip6tables -A bannedDownloader -s 2602:FEDA:DA0::/43 -j DROP
 sudo ip6tables -A bannedDownloader -s 2602:FF7A:FFA::/48 -j DROP
 sudo ip6tables -A bannedDownloader -s 2602:FFB7:419::/48 -j DROP
 sudo ip6tables -A bannedDownloader -s 2602:FFB7:41A::/48 -j DROP
-echo -e " \e[32mBlock 2604.x\e[0m"
+echo -e " \e[32mBlock 2604:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2604:4100:0:E::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2604:BC80:2:18::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2604:BC80:2:46::/64 -j DROP
@@ -3073,7 +3073,7 @@ sudo ip6tables -A bannedDownloader -s 2604:BC80:2:1100::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2604:BC80:2:114D::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2604:BC80:2:1157::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2604:BC80:2:1158::/64 -j DROP
-echo -e " \e[32mBlock 2606.x\e[0m"
+echo -e " \e[32mBlock 2606:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2606:54C0:1980::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2606:54C0:1980:8::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2606:54C0:1980:10::/64 -j DROP
@@ -3123,7 +3123,7 @@ sudo ip6tables -A bannedDownloader -s 2606:54C0:19E0:48::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2606:54C0:19E0:50::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2606:54C0:19E0:58::/64 -j DROP
 sudo ip6tables -A bannedDownloader -s 2803:EB80:0:14::/64 -j DROP
-echo -e " \e[32mBlock 2A0x.x\e[0m"
+echo -e " \e[32mBlock 2A0x:x\e[0m"
 sudo ip6tables -A bannedDownloader -s 2A00:CB20:3800::/40 -j DROP
 sudo ip6tables -A bannedDownloader -s 2A01:CE9E:2000::/35 -j DROP
 sudo ip6tables -A bannedDownloader -s 2A01:CE9E:4000::/34 -j DROP
