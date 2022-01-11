@@ -9,3 +9,5 @@ sudo iptables -A bannedDownloader -s 163.172.82.182 -j DROP
 sudo iptables -A bannedDownloader -s 163.195.192.174 -j DROP # ZA South Africa
 
 sudo iptables -A bannedDownloader -s 164.132.38.166 -j DROP 
+
+sudo iptables -A bannedDownloader -s 167.71.198.17 -j DROP 
