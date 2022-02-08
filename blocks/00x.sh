@@ -16,6 +16,7 @@ sudo iptables -A bannedDownloader -s 1.245.61.144  -j DROP # South Korea
 sudo iptables -A bannedDownloader -s 2.35.211.124 -j DROP # ssh and website attacker / Verona (IT)
 sudo iptables -A bannedDownloader -s 2.50.135.168 -j DROP
 sudo iptables -A bannedDownloader -s 2.51.1.61 -j DROP
+sudo iptables -A bannedDownloader -s 2.58.149.155 -j DROP
 
 sudo iptables -A bannedDownloader -s 3.0.115.255 -j DROP
 sudo iptables -A bannedDownloader -s 3.8.12.221 -j DROP
