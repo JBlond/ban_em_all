@@ -6,6 +6,7 @@ sudo iptables -A bannedDownloader -s 40.121.42.137 -j DROP # WP scanner
 
 sudo iptables -A bannedDownloader -s 41.39.79.194 -j DROP
 sudo iptables -A bannedDownloader -s 41.47.138.104 -j DROP
+sudo iptables -A bannedDownloader -s 45.146.166.173 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 41.185.8.148 -j DROP
 sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
 sudo iptables -A bannedDownloader -s 41.237.113.106 -j DROP  #WP hacker
