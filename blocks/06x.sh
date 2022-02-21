@@ -24,11 +24,12 @@ sudo iptables -A bannedDownloader -s 61.219.114.108 -j DROP
 
 sudo iptables -A bannedDownloader -s 62.16.6.105 -j DROP #spamer odessa
 sudo iptables -A bannedDownloader -s 62.48.247.238 -j DROP
-sudo iptables -A bannedDownloader -s 62.210.178.249  -j DROP #spamer
 sudo iptables -A bannedDownloader -s 65.49.38.149 -j DROP # port spanner california
-sudo iptables -A bannedDownloader -s 62.210.180.146  -j DROP # spammer
+sudo iptables -A bannedDownloader -s 62.210.127.188   -j DROP # spam bot
 sudo iptables -A bannedDownloader -s 62.210.129.185 -j DROP # DNS abuser
 sudo iptables -A bannedDownloader -s 62.210.157.0/32 -j DROP # Free SAS France
+sudo iptables -A bannedDownloader -s 62.210.178.249  -j DROP #spamer
+sudo iptables -A bannedDownloader -s 62.210.180.146  -j DROP # spammer
 
 sudo iptables -A bannedDownloader -s 63.143.98.57 -j DROP
 
