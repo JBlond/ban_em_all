@@ -40,6 +40,7 @@ sudo iptables -A bannedDownloader -s 193.142.146.4 -j DROP # website hacker
 sudo iptables -A bannedDownloader -s 193.142.146.202 -j DROP
 sudo iptables -A bannedDownloader -s 193.142.146.229 -j DROP
 sudo iptables -A bannedDownloader -s 193.142.146.42 -j DROP
+sudo iptables -A bannedDownloader -s 193.169.253.168 -j DROP # website hacker
 
 sudo iptables -A bannedDownloader -s 194.186.138.214 -j DROP
 
