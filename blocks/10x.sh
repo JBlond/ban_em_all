@@ -2,7 +2,7 @@ echo -e " \e[32mBlock 10x.x\e[0m"
 sudo iptables -A bannedDownloader -s 100.43.153.118 -j DROP #USA
 
 sudo iptables -A bannedDownloader -s 101.33.123.223 -j DROP
-sudo iptables -A bannedDownloader -s 101.36.109.176  -j DROP # WP scanner
+sudo iptables -A bannedDownloader -s 101.36.109.176 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 101.96.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 101.110.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 101.205.0.0/16 -j DROP
@@ -17,7 +17,7 @@ sudo iptables -A bannedDownloader -s 103.81.38.181 -j DROP
 sudo iptables -A bannedDownloader -s 103.81.230.2 -j DROP
 sudo iptables -A bannedDownloader -s 103.87.27.122 -j DROP
 sudo iptables -A bannedDownloader -s 103.95.234.202 -j DROP
-sudo iptables -A bannedDownloader -s 103.100.158.53  -j DROP
+sudo iptables -A bannedDownloader -s 103.100.158.53 -j DROP
 sudo iptables -A bannedDownloader -s 103.112.252.6 -j DROP
 sudo iptables -A bannedDownloader -s 103.194.243.188 -j DROP
 sudo iptables -A bannedDownloader -s 103.194.243.212 -j DROP

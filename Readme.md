@@ -80,6 +80,25 @@ sudo apt install nftables
 sudo systemctl enable nftables.service
 ```
 
+## Let's encrypt issues
+
+Sometimes the Let's encrypt IP range is in this. They change their range quiet often. In trouble
+
+run 
+
+```bash
+sudo iptables -F INPUT
+sudo iptables --flush bannedDownloader
+sudo iptables -X bannedDownloader
+```
+
+Update your certs
+
+run 
+```bash
+make
+```
+
 ## Contribute
 
 Contributers are welcome. Open Pull request or file an issue.
