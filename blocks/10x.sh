@@ -53,6 +53,11 @@ sudo iptables -A bannedDownloader -s 107.178.0.0/16 -j DROP #san fran
 
 sudo iptables -A bannedDownloader -s 108.58.123.210 -j DROP
 sudo iptables -A bannedDownloader -s 108.162.28.6 -j DROP
+sudo iptables -A bannedDownloader -s 108.162.221.17 -j DROP
+sudo iptables -A bannedDownloader -s 108.162.221.23 -j DROP
+sudo iptables -A bannedDownloader -s 108.162.221.191 -j DROP
+sudo iptables -A bannedDownloader -s 108.162.221.193 -j DROP
+sudo iptables -A bannedDownloader -s 108.162.221.199 -j DROP
 
 sudo iptables -A bannedDownloader -s 109.87.0.0/16 -j DROP # ukraine
 sudo iptables -A bannedDownloader -s 109.93.54.211 -j DROP

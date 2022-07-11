@@ -8,6 +8,7 @@ sudo iptables -A bannedDownloader -s 20.89.70.87 -j DROP
 sudo iptables -A bannedDownloader -s 20.98.99.122 -j DROP
 sudo iptables -A bannedDownloader -s 20.185.83.210 -j DROP
 sudo iptables -A bannedDownloader -s 20.203.168.56 -j DROP #spammer
+sudo iptables -A bannedDownloader -s 20.203.174.206 -j DROP
 sudo iptables -A bannedDownloader -s 20.206.88.196 -j DROP
 sudo iptables -A bannedDownloader -s 20.248.175.158 -j DROP
 sudo iptables -A bannedDownloader -s 20.248.181.117 -j DROP
