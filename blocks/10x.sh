@@ -32,7 +32,7 @@ sudo iptables -A bannedDownloader -s 104.42.0.0/16 -j DROP # ??? Downloader of 4
 sudo iptables -A bannedDownloader -s 104.198.0.0/16 -j DROP # ??? Downloader of 404
 sudo iptables -A bannedDownloader -s 104.207.207.135 -j DROP
 sudo iptables -A bannedDownloader -s 104.214.0.0/16 -j DROP # WP scanner
-sudo iptables -A bannedDownloader -s 104.223.91.170-j DROP # WP scanner
+sudo iptables -A bannedDownloader -s 104.223.91.170 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 104.244.74.57 -j DROP
 
 sudo iptables -A bannedDownloader -s 106.12.0.0/16 -j DROP
