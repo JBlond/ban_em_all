@@ -12,8 +12,8 @@ sudo iptables -A bannedDownloader -s 171.103.199.202 -j DROP
 sudo iptables -A bannedDownloader -s 171.103.200.46 -j DROP
 sudo iptables -A bannedDownloader -s 171.223.0.0/16 -j DROP
 
-sudo iptables -A bannedDownloader -s 173.16.254.243 -j DROP
-sudo iptables -A bannedDownloader -s 176.36.201.10 -j DROP
+
+
 sudo iptables -A bannedDownloader -s 172.69.68.22 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 172.69.69.100 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 172.69.69.104 -j DROP # cloudflare ?
@@ -27,6 +27,9 @@ sudo iptables -A bannedDownloader -s 172.69.71.57 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 172.69.71.195 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 172.69.71.183 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 176.113.226.68 -j DROP
+
+sudo iptables -A bannedDownloader -s 173.16.254.243 -j DROP
+sudo iptables -A bannedDownloader -s 173.208.249.122 -j DROP
 sudo iptables -A bannedDownloader -s 173.212.214.137 -j DROP # Exim malware server
 sudo iptables -A bannedDownloader -s 173.249.35.108 -j DROP
 
@@ -36,6 +39,7 @@ sudo iptables -A bannedDownloader -s 175.24.22.230 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 175.125.94.166 -j DROP
 
 sudo iptables -A bannedDownloader -s 176.9.63.48 -j DROP
+sudo iptables -A bannedDownloader -s 176.36.201.10 -j DROP
 sudo iptables -A bannedDownloader -s 176.37.248.76 -j DROP
 sudo iptables -A bannedDownloader -s 176.113.227.152 -j DROP
 
