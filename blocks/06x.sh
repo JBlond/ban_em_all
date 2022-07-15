@@ -38,4 +38,5 @@ sudo iptables -A bannedDownloader -s 67.55.38.219 -j DROP
 sudo iptables -A bannedDownloader -s 68.183.12.127 -j DROP
 
 sudo iptables -A bannedDownloader -s 69.12.66.251 -j DROP
+sudo iptables -A bannedDownloader -s 69.30.230.61 -j DROP
 sudo iptables -A bannedDownloader -s 69.75.133.122 -j DROP
