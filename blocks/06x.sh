@@ -33,10 +33,15 @@ sudo iptables -A bannedDownloader -s 62.210.180.146  -j DROP # spammer
 
 sudo iptables -A bannedDownloader -s 63.143.98.57 -j DROP
 
+sudo iptables -A bannedDownloader -s 64.227.108.223 -j DROP
+
+sudo iptables -A bannedDownloader -s 66.29.154.147 -j DROP
+
 sudo iptables -A bannedDownloader -s 67.55.38.219 -j DROP
 
 sudo iptables -A bannedDownloader -s 68.183.12.127 -j DROP
 
+sudo iptables -A bannedDownloader -s 69.10.32.26 -j DROP
 sudo iptables -A bannedDownloader -s 69.12.66.251 -j DROP
 sudo iptables -A bannedDownloader -s 69.30.230.61 -j DROP
 sudo iptables -A bannedDownloader -s 69.75.133.122 -j DROP
