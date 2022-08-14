@@ -36,4 +36,5 @@ sudo iptables -A bannedDownloader -s 8.210.152.5 -j DROP
 
 sudo iptables -A bannedDownloader -s 8.29.198.26 -j DROP
 sudo iptables -A bannedDownloader -s 8.29.198.27 -j DROP
+sudo iptables -A bannedDownloader -s 8.210.89.73 -j DROP
 sudo iptables -A bannedDownloader -s 8.210.152.5 -j DROP  # 2k plus attacks in 30 minutes
