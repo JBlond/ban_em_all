@@ -46,6 +46,7 @@ sudo iptables -A bannedDownloader -s 184.171.244.231 -j DROP
 sudo iptables -A bannedDownloader -s 185.22.187.0/16 -j DROP # attacker SQL injections
 sudo iptables -A bannedDownloader -s 185.54.228.115 -j DROP # WP attacker
 sudo iptables -A bannedDownloader -s 185.61.154.16 -j DROP
+sudo iptables -A bannedDownloader -s 185.163.200.25 -j DROP
 sudo iptables -A bannedDownloader -s 185.157.246.12 -j DROP #dns abuser
 sudo iptables -A bannedDownloader -s 185.157.246.123 -j DROP #dns abuser
 sudo iptables -A bannedDownloader -s 185.198.58.115 -j DROP #romania scanner

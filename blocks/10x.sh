@@ -52,6 +52,7 @@ sudo iptables -A bannedDownloader -s 106.213.172.85 -j DROP
 sudo iptables -A bannedDownloader -s 106.241.0.0/16 -j DROP # south korea sshd intruder
 sudo iptables -A bannedDownloader -s 106.255.253.178 -j DROP
 
+sudo iptables -A bannedDownloader -s 107.180.111.28 -j DROP
 sudo iptables -A bannedDownloader -s 107.150.36.75 -j DROP
 sudo iptables -A bannedDownloader -s 107.178.0.0/16 -j DROP #san fran
 
