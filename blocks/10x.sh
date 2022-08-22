@@ -22,9 +22,11 @@ sudo iptables -A bannedDownloader -s 103.112.252.6 -j DROP
 sudo iptables -A bannedDownloader -s 103.146.177.171 -j DROP
 sudo iptables -A bannedDownloader -s 103.194.243.188 -j DROP
 sudo iptables -A bannedDownloader -s 103.194.243.212 -j DROP
+sudo iptables -A bannedDownloader -s 103.159.85.225 -j DROP
 sudo iptables -A bannedDownloader -s 103.207.156.207 -j DROP
 sudo iptables -A bannedDownloader -s 103.215.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.220.157.30 -j DROP
+sudo iptables -A bannedDownloader -s 103.228.114.70 -j DROP
 sudo iptables -A bannedDownloader -s 103.229.0.0/16 -j DROP # hong kong
 sudo iptables -A bannedDownloader -s 103.231.70.170 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 103.231.166.44 -j DROP
