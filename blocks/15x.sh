@@ -3,6 +3,7 @@ sudo iptables -A bannedDownloader -s 153.127.65.64 -j DROP
 
 sudo iptables -A bannedDownloader -s 155.4.97.214 -j DROP
 
+sudo iptables -A bannedDownloader -s 157.90.209.112 -j DROP
 sudo iptables -A bannedDownloader -s 157.230.0.0/16 -j DROP # 	Glenayre Electronics (Atlanta)
 
 sudo iptables -A bannedDownloader -s 158.69.0.0/16 -j DROP # spammer

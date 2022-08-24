@@ -23,11 +23,13 @@ sudo iptables -A bannedDownloader -s 3.0.115.255 -j DROP
 sudo iptables -A bannedDownloader -s 3.8.12.221 -j DROP
 sudo iptables -A bannedDownloader -s 3.8.68.2 -j DROP
 sudo iptables -A bannedDownloader -s 3.121.212.242 -j DROP # web site attacker
+sudo iptables -A bannedDownloader -s 3.127.59.133 -j DROP
 sudo iptables -A bannedDownloader -s 3.137.163.212 -j DROP
 
 sudo iptables -A bannedDownloader -s 4.34.52.202 -j DROP
 
-sudo iptables -A bannedDownloader -s 5.9.23.231  -j DROP # BLEXBot
+sudo iptables -A bannedDownloader -s 5.9.23.231 -j DROP # BLEXBot
+sudo iptables -A bannedDownloader -s 5.9.250.2 -j DROP
 sudo iptables -A bannedDownloader -s 5.11.134.152 -j DROP
 sudo iptables -A bannedDownloader -s 5.173.235.4 -j DROP
 sudo iptables -A bannedDownloader -s 5.188.0.0/12  -j DROP # spam bot farm
