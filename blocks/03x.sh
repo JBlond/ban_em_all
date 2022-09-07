@@ -34,6 +34,7 @@ sudo iptables -A bannedDownloader -s 36.248.0.0/16 -j DROP
 
 sudo iptables -A bannedDownloader -s 37.59.141.40 -j DROP
 sudo iptables -A bannedDownloader -s 37.115.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 37.139.53.82 -j DROP # spam bot
 sudo iptables -A bannedDownloader -s 37.191.201.165 -j DROP
 
 sudo iptables -A bannedDownloader -s 39.59.0.0/16 -j DROP
