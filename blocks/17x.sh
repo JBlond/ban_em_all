@@ -1,4 +1,6 @@
 echo -e " \e[32mBlock 17x.x\e[0m"
+sudo iptables -A bannedDownloader -s 170.187.238.204 -j DROP
+
 sudo iptables -A bannedDownloader -s 171.5.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 171.15.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 171.43.0.0/16 -j DROP
@@ -11,7 +13,7 @@ sudo iptables -A bannedDownloader -s 171.103.197.46 -j DROP
 sudo iptables -A bannedDownloader -s 171.103.199.202 -j DROP
 sudo iptables -A bannedDownloader -s 171.103.200.46 -j DROP
 sudo iptables -A bannedDownloader -s 171.223.0.0/16 -j DROP
-
+sudo iptables -A bannedDownloader -s 171.244.0.0/16 -j DROP
 
 
 sudo iptables -A bannedDownloader -s 172.69.68.22 -j DROP # cloudflare ?
@@ -29,9 +31,19 @@ sudo iptables -A bannedDownloader -s 172.69.71.183 -j DROP # cloudflare ?
 sudo iptables -A bannedDownloader -s 176.113.226.68 -j DROP
 
 sudo iptables -A bannedDownloader -s 173.16.254.243 -j DROP
+sudo iptables -A bannedDownloader -s 173.44.55.155 -j DROP
+sudo iptables -A bannedDownloader -s 173.44.55.179 -j DROP
+sudo iptables -A bannedDownloader -s 173.201.177.198 -j DROP
 sudo iptables -A bannedDownloader -s 173.208.249.122 -j DROP
 sudo iptables -A bannedDownloader -s 173.212.214.137 -j DROP # Exim malware server
+sudo iptables -A bannedDownloader -s 173.236.152.123 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.176.113 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.176.129 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.176.129 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.176.129 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.184.128 -j DROP
 sudo iptables -A bannedDownloader -s 173.249.35.108 -j DROP
+sudo iptables -A bannedDownloader -s 173.249.144.29 -j DROP
 
 
 
