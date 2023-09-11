@@ -3,6 +3,7 @@ sudo iptables -A bannedDownloader -s 80.12.91.114 -j DROP
 sudo iptables -A bannedDownloader -s 80.71.13.138 -j DROP
 sudo iptables -A bannedDownloader -s 80.74.148.210 -j DROP
 sudo iptables -A bannedDownloader -s 80.78.79.170 -j DROP
+sudo iptables -A bannedDownloader -s 80.82.77.2 -j DROP
 sudo iptables -A bannedDownloader -s 80.82.78.39 -j DROP
 sudo iptables -A bannedDownloader -s 80.85.239.242 -j DROP
 sudo iptables -A bannedDownloader -s 80.88.88.149 -j DROP
@@ -19,9 +20,11 @@ sudo iptables -A bannedDownloader -s 81.213.183.164 -j DROP
 sudo iptables -A bannedDownloader -s 81.214.39.192 -j DROP
 sudo iptables -A bannedDownloader -s 81.214.63.228 -j DROP
 sudo iptables -A bannedDownloader -s 81.215.200.22 -j DROP
-sudo iptables -A bannedDownloader -s 82.223.205.193 -j DROP
 sudo iptables -A bannedDownloader -s 82.223.33.36 -j DROP
+sudo iptables -A bannedDownloader -s 82.223.205.193 -j DROP
+sudo iptables -A bannedDownloader -s 81.223.232.24 -j DROP
 
+sudo iptables -A bannedDownloader -s 82.100.220.49 -j DROP
 sudo iptables -A bannedDownloader -s 82.102.23.139 -j DROP
 sudo iptables -A bannedDownloader -s 82.102.27.163 -j DROP
 sudo iptables -A bannedDownloader -s 82.102.27.171 -j DROP
@@ -44,6 +47,7 @@ sudo iptables -A bannedDownloader -s 85.105.206.68 -j DROP
 sudo iptables -A bannedDownloader -s 85.105.4.243 -j DROP
 sudo iptables -A bannedDownloader -s 85.105.97.45 -j DROP
 sudo iptables -A bannedDownloader -s 85.233.132.6 -j DROP
+sudo iptables -A bannedDownloader -s 85.237.38.228 -j DROP
 sudo iptables -A bannedDownloader -s 85.243.134.107 -j DROP
 sudo iptables -A bannedDownloader -s 85.85.240.246 -j DROP
 sudo iptables -A bannedDownloader -s 85.98.44.116 -j DROP

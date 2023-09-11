@@ -2,6 +2,7 @@ echo -e " \e[32mBlock 18x.x\e[0m"
 sudo iptables -A bannedDownloader -s 180.76.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 180.164.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 180.169.0.0/16 -j DROP
+sudo iptables -A bannedDownloader -s 180.178.35.194 -j DROP
 sudo iptables -A bannedDownloader -s 180.183.247.248 -j DROP 
 sudo iptables -A bannedDownloader -s 180.231.222.41 -j DROP
 
@@ -42,12 +43,15 @@ sudo iptables -A bannedDownloader -s 183.240.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 183.246.0.0/16 -j DROP
 
 sudo iptables -A bannedDownloader -s 184.154.127.162 -j DROP
+sudo iptables -A bannedDownloader -s 184.168.97.6 -j DROP
 sudo iptables -A bannedDownloader -s 184.171.244.231 -j DROP
 
+sudo iptables -A bannedDownloader -s 185.17.183.237 -j DROP
 sudo iptables -A bannedDownloader -s 185.22.187.0/16 -j DROP # attacker SQL injections
 sudo iptables -A bannedDownloader -s 185.54.228.115 -j DROP # WP attacker
 sudo iptables -A bannedDownloader -s 185.61.154.16 -j DROP
 sudo iptables -A bannedDownloader -s 185.82.212.33 -j DROP
+sudo iptables -A bannedDownloader -s 185.114.245.109 -j DROP
 sudo iptables -A bannedDownloader -s 185.163.200.25 -j DROP
 sudo iptables -A bannedDownloader -s 185.157.246.12 -j DROP #dns abuser
 sudo iptables -A bannedDownloader -s 185.157.246.123 -j DROP #dns abuser
@@ -82,6 +86,7 @@ sudo iptables -A bannedDownloader -s 187.189.230.108 -j DROP
 
 
 sudo iptables -A bannedDownloader -s 188.26.43.53 -j DROP 
+sudo iptables -A bannedDownloader -s 188.68.47.117 -j DROP
 sudo iptables -A bannedDownloader -s 188.112.194.6 -j DROP 
 sudo iptables -A bannedDownloader -s 188.166.247.170 -j DROP
 sudo iptables -A bannedDownloader -s 188.252.14.236 -j DROP

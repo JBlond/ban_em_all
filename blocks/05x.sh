@@ -5,6 +5,7 @@ sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 51.79.145.154 -j DROP
 sudo iptables -A bannedDownloader -s 51.104.34.42 -j DROP # UK based server scanner
 sudo iptables -A bannedDownloader -s 51.104.53.72 -j DROP
+sudo iptables -A bannedDownloader -s 51.210.183.85 -j DROP
 
 sudo iptables -A bannedDownloader -s 52.15.212.3 -j DROP
 sudo iptables -A bannedDownloader -s 52.30.16.188 -j DROP

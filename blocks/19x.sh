@@ -38,15 +38,18 @@ sudo iptables -A bannedDownloader -s 192.99.12.141 -j DROP # OVH Hosting Montrea
 sudo iptables -A bannedDownloader -s 192.187.127.19 -j DROP
 sudo iptables -A bannedDownloader -s 192.198.192.26 -j DROP
 
+sudo iptables -A bannedDownloader -s 193.70.52.96 -j DROP
 sudo iptables -A bannedDownloader -s 193.142.58.22 -j DROP # website hacker
 sudo iptables -A bannedDownloader -s 193.142.146.4 -j DROP # website hacker
 sudo iptables -A bannedDownloader -s 193.142.146.202 -j DROP
 sudo iptables -A bannedDownloader -s 193.142.146.229 -j DROP
 sudo iptables -A bannedDownloader -s 193.142.146.42 -j DROP
 sudo iptables -A bannedDownloader -s 193.169.253.168 -j DROP # website hacker
+sudo iptables -A bannedDownloader -s 193.239.44.195 -j DROP
 
 sudo iptables -A bannedDownloader -s 194.59.159.13 -j DROP
 sudo iptables -A bannedDownloader -s 194.186.138.214 -j DROP
+sudo iptables -A bannedDownloader -s 194.233.67.112 -j DROP
 
 sudo iptables -A bannedDownloader -s 195.22.0.0/16 -j DROP # Poland / frequent scanner
 sudo iptables -A bannedDownloader -s 195.33.206.195 -j DROP
@@ -65,8 +68,11 @@ sudo iptables -A bannedDownloader -s 96.244.192.14 -j DROP # spammer
 
 sudo iptables -A bannedDownloader -s 197.14.22.63 -j DROP
 
+sudo iptables -A bannedDownloader -s 198.54.114.103 -j DROP
+
 sudo iptables -A bannedDownloader -s 198.199.76.100 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 198.245.49.197 -j DROP
-sudo iptables -A bannedDownloader -s 199.188.203.37 -j DROP
 
 sudo iptables -A bannedDownloader -s 199.85.0.0/16 -j DROP # Symantec
+sudo iptables -A bannedDownloader -s 199.116.76.106 -j DROP
+sudo iptables -A bannedDownloader -s 199.188.203.37 -j DROP
