@@ -2,6 +2,7 @@ install:
 	@echo ""
 	@git pull
 	@./ban_em_all.sh
+	@sudo systemctl restart fail2ban
 
 china:
 	@echo ""
@@ -21,6 +22,7 @@ all:
 	@./ban_em_all.sh
 	@./china_min.sh
 	@./immuniweb.sh
+	@sudo systemctl restart fail2ban
 
 insane:
 	@echo ''
@@ -32,6 +34,7 @@ insane:
 	@./immuniweb.sh
 	@./china.sh
 	@./chinav6.sh
+	@sudo systemctl restart fail2ban
 
 usage:
 	@echo ""
