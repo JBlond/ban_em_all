@@ -70,6 +70,7 @@ sudo iptables -A bannedDownloader -s 104.214.0.0/16 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 104.223.91.170 -j DROP # WP scanner
 sudo iptables -A bannedDownloader -s 104.238.220.59 -j DROP
 sudo iptables -A bannedDownloader -s 104.244.74.57 -j DROP
+sudo iptables -A bannedDownloader -s 104.244.75.243 -j DROP
 sudo iptables -A bannedDownloader -s 104.248.42.186 -j DROP
 sudo iptables -A bannedDownloader -s 104.248.125.139 -j DROP
 sudo iptables -A bannedDownloader -s 104.248.139.32 -j DROP
@@ -103,6 +104,7 @@ sudo iptables -A bannedDownloader -s 107.178.0.0/16 -j DROP #san fran
 sudo iptables -A bannedDownloader -s 107.180.68.247 -j DROP
 sudo iptables -A bannedDownloader -s 107.180.111.28 -j DROP
 sudo iptables -A bannedDownloader -s 107.182.236.107 -j DROP
+sudo iptables -A bannedDownloader -s 107.189.4.83 -j DROP
 
 sudo iptables -A bannedDownloader -s 108.58.123.210 -j DROP
 sudo iptables -A bannedDownloader -s 108.61.160.106 -j DROP
