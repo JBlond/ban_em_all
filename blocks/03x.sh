@@ -24,6 +24,7 @@ sudo iptables -A bannedDownloader -s 35.226.196.179 -j DROP
 sudo iptables -A bannedDownloader -s 35.234.127.178 -j DROP # cyberscan.io
 sudo iptables -A bannedDownloader -s 35.238.252.69 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 35.241.251.41 -j DROP #cyberscan.io
+sudo iptables -A bannedDownloader -s 35.245.96.16 -j DROP
 
 sudo iptables -A bannedDownloader -s 36.26.83.52 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 36.49.0.0/16 -j DROP

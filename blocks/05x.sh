@@ -1,10 +1,14 @@
 echo -e " \e[32mBlock 5x.x\e[0m"
+sudo iptables -A bannedDownloader -s 50.116.102.211 -j DROP
 sudo iptables -A bannedDownloader -s 50.230.160.35 -j DROP
 
+sudo iptables -A bannedDownloader -s 51.77.66.84 -j DROP
 sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker
 sudo iptables -A bannedDownloader -s 51.79.145.154 -j DROP
+sudo iptables -A bannedDownloader -s 51.91.151.60  -j DROP
 sudo iptables -A bannedDownloader -s 51.104.34.42 -j DROP # UK based server scanner
 sudo iptables -A bannedDownloader -s 51.104.53.72 -j DROP
+sudo iptables -A bannedDownloader -s 51.178.136.164 -j DROP
 sudo iptables -A bannedDownloader -s 51.210.183.85 -j DROP
 
 sudo iptables -A bannedDownloader -s 52.15.212.3 -j DROP
@@ -19,6 +23,7 @@ sudo iptables -A bannedDownloader -s 52.192.73.251 -j DROP
 sudo iptables -A bannedDownloader -s 52.230.66.131 -j DROP
 sudo iptables -A bannedDownloader -s 52.249.198.100  -j DROP # ssh attacker
 
+sudo iptables -A bannedDownloader -s 54.37.156.240 -j DROP
 sudo iptables -A bannedDownloader -s 54.38.46.3 -j DROP
 sudo iptables -A bannedDownloader -s 54.38.243.68 -j DROP
 sudo iptables -A bannedDownloader -s 54.39.216.102 -j DROP
