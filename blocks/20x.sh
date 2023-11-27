@@ -34,6 +34,7 @@ sudo iptables -A bannedDownloader -s 202.137.155.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 202.146.85.2 -j DROP
 
 sudo iptables -A bannedDownloader -s 203.113.102.178 -j DROP
+sudo iptables -A bannedDownloader -s 203.124.33.211 -j DROP
 sudo iptables -A bannedDownloader -s 203.147.76.2 -j DROP
 sudo iptables -A bannedDownloader -s 203.195.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 203.253.67.224 -j DROP
@@ -52,4 +53,5 @@ sudo iptables -A bannedDownloader -s 208.110.85.70 -j DROP
 sudo iptables -A bannedDownloader -s 209.97.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 209.126.24.175 -j DROP
 sudo iptables -A bannedDownloader -s 209.182.194.111 -j DROP
+sudo iptables -A bannedDownloader -s 209.41.0.0/16 -j DROP # attacker farm
 sudo iptables -A bannedDownloader -s 209.250.0.0/16 -j DROP #server farm
