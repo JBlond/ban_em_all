@@ -23,6 +23,7 @@ sudo iptables -A bannedDownloader -s 173.201.177.198 -j DROP
 sudo iptables -A bannedDownloader -s 173.208.249.122 -j DROP
 sudo iptables -A bannedDownloader -s 173.212.214.137 -j DROP # Exim malware server
 sudo iptables -A bannedDownloader -s 173.236.152.123 -j DROP
+sudo iptables -A bannedDownloader -s 173.236.168.10 -j DROP
 sudo iptables -A bannedDownloader -s 173.236.176.113 -j DROP
 sudo iptables -A bannedDownloader -s 173.236.176.129 -j DROP
 sudo iptables -A bannedDownloader -s 173.236.176.129 -j DROP

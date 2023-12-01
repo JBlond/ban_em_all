@@ -6,6 +6,7 @@ sudo iptables -A bannedDownloader -s 180.178.35.194 -j DROP
 sudo iptables -A bannedDownloader -s 180.183.247.248 -j DROP 
 sudo iptables -A bannedDownloader -s 180.231.222.41 -j DROP
 
+sudo iptables -A bannedDownloader -s 181.43.97.119 -j DROP 
 sudo iptables -A bannedDownloader -s 181.176.222.68 -j DROP 
 
 sudo iptables -A bannedDownloader -s 182.23.2.118 -j DROP 
@@ -50,6 +51,7 @@ sudo iptables -A bannedDownloader -s 184.171.244.231 -j DROP
 sudo iptables -A bannedDownloader -s 185.17.183.237 -j DROP
 sudo iptables -A bannedDownloader -s 185.18.197.110 -j DROP
 sudo iptables -A bannedDownloader -s 185.22.187.0/16 -j DROP # attacker SQL injections
+sudo iptables -A bannedDownloader -s 185.50.25.58 -j DROP
 sudo iptables -A bannedDownloader -s 185.54.228.115 -j DROP # WP attacker
 sudo iptables -A bannedDownloader -s 185.61.154.16 -j DROP
 sudo iptables -A bannedDownloader -s 185.82.212.33 -j DROP
