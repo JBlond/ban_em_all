@@ -22,22 +22,22 @@ sudo iptables -A bannedDownloader -s 42.193.200.167 -j DROP
 sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j DROP
 
 sudo iptables -A bannedDownloader -s 43.132.165.94 -j DROP
-
-sudo iptables -A bannedDownloader -s 45.118.32.90 -j DROP
 sudo iptables -A bannedDownloader -s 43.225.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 45.233.172.18 -j DROP
 sudo iptables -A bannedDownloader -s 43.241.70.75 -j DROP
 sudo iptables -A bannedDownloader -s 43.249.113.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 43.249.114.36 -j DROP
 
 sudo iptables -A bannedDownloader -s 45.10.88.238 -j DROP
+sudo iptables -A bannedDownloader -s 45.55.0.0/16 -j DROP
 sudo iptables -A bannedDownloader -s 45.79.209.150 -j DROP
 sudo iptables -A bannedDownloader -s 45.87.2.186 -j DROP
+sudo iptables -A bannedDownloader -s 45.118.32.90 -j DROP
 sudo iptables -A bannedDownloader -s 45.119.84.18 -j DROP
 sudo iptables -A bannedDownloader -s 45.146.164.125 -j DROP
 sudo iptables -A bannedDownloader -s 45.146.164.135  -j DROP #website hacker
 sudo iptables -A bannedDownloader -s 45.166.21.165 -j DROP
 sudo iptables -A bannedDownloader -s 45.180.140.138 -j DROP
+sudo iptables -A bannedDownloader -s 45.233.172.18 -j DROP
 sudo iptables -A bannedDownloader -s 45.233.172.53 -j DROP
 
 sudo iptables -A bannedDownloader -s 46.8.174.116 -j DROP
