@@ -1,52 +1,46 @@
-echo -e " \e[32mBlock 5x.x\e[0m"
-sudo iptables -A bannedDownloader -s 50.116.102.211 -j DROP
-sudo iptables -A bannedDownloader -s 50.230.160.35 -j DROP
-
-sudo iptables -A bannedDownloader -s 51.77.66.84 -j DROP
-sudo iptables -A bannedDownloader -s 51.75.76.201 -j DROP # ssh attacker
-sudo iptables -A bannedDownloader -s 51.79.145.154 -j DROP
-sudo iptables -A bannedDownloader -s 51.83.42.50 -j DROP
-sudo iptables -A bannedDownloader -s 51.68.155.221 -j DROP
-sudo iptables -A bannedDownloader -s 51.91.151.60  -j DROP
-sudo iptables -A bannedDownloader -s 51.104.34.42 -j DROP # UK based server scanner
-sudo iptables -A bannedDownloader -s 51.104.53.72 -j DROP
-sudo iptables -A bannedDownloader -s 51.178.136.164 -j DROP
-sudo iptables -A bannedDownloader -s 51.210.183.85 -j DROP
-
-sudo iptables -A bannedDownloader -s 52.15.212.3 -j DROP
-sudo iptables -A bannedDownloader -s 52.30.16.188 -j DROP
-sudo iptables -A bannedDownloader -s 52.42.79.222 -j DROP
-sudo iptables -A bannedDownloader -s 52.60.189.115 -j DROP
-sudo iptables -A bannedDownloader -s 50.62.149.30 -j DROP
-sudo iptables -A bannedDownloader -s 52.65.15.196 -j DROP
-sudo iptables -A bannedDownloader -s 52.86.221.173 -j DROP
-sudo iptables -A bannedDownloader -s 52.137.71.44 -j DROP
-sudo iptables -A bannedDownloader -s 52.192.73.251 -j DROP
-sudo iptables -A bannedDownloader -s 52.230.66.131 -j DROP
-sudo iptables -A bannedDownloader -s 52.249.198.100  -j DROP # ssh attacker
-
-sudo iptables -A bannedDownloader -s 54.37.156.240 -j DROP
-sudo iptables -A bannedDownloader -s 54.38.46.3 -j DROP
-sudo iptables -A bannedDownloader -s 54.38.243.68 -j DROP
-sudo iptables -A bannedDownloader -s 54.39.216.102 -j DROP
-sudo iptables -A bannedDownloader -s 54.72.211.185 -j DROP
-sudo iptables -A bannedDownloader -s 54.158.150.173 -j DROP
-sudo iptables -A bannedDownloader -s 54.176.188.51 -j DROP
-sudo iptables -A bannedDownloader -s 54.178.182.46 -j DROP
-
-sudo iptables -A bannedDownloader -s 58.19.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.33.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.42.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.50.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.60.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.61.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.210.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.213.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.222.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 58.250.0.0/16 -j DROP
-
-sudo iptables -A bannedDownloader -s 59.40.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 59.41.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 59.52.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 59.63.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 59.125.2.63 -j DROP
+50.116.102.211
+50.230.160.35
+51.77.66.84
+51.75.76.201
+51.79.145.154
+51.83.42.50
+51.68.155.221
+51.91.151.60 
+51.104.34.42
+51.104.53.72
+51.178.136.164
+51.210.183.85
+52.15.212.3
+52.30.16.188
+52.42.79.222
+52.60.189.115
+50.62.149.30
+52.65.15.196
+52.86.221.173
+52.137.71.44
+52.192.73.251
+52.230.66.131
+52.249.198.100
+54.37.156.240
+54.38.46.3
+54.38.243.68
+54.39.216.102
+54.72.211.185
+54.158.150.173
+54.176.188.51
+54.178.182.46
+58.19.0.0/16
+58.33.0.0/16
+58.42.0.0/16
+58.50.0.0/16
+58.60.0.0/16
+58.61.0.0/16
+58.210.0.0/16
+58.213.0.0/16
+58.222.0.0/16
+58.250.0.0/16
+59.40.0.0/16
+59.41.0.0/16
+59.52.0.0/16
+59.63.0.0/16
+59.125.2.63

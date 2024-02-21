@@ -1,64 +1,56 @@
-echo -e " \e[32mBlock 4x.x\e[0m"
-sudo iptables -A bannedDownloader -s 40.71.169.235 -j DROP
-sudo iptables -A bannedDownloader -s 40.77.107.181 -j DROP
-sudo iptables -A bannedDownloader -s 40.77.111.208 -j DROP
-sudo iptables -A bannedDownloader -s 40.86.255.160 -j DROP # WP scanner
-sudo iptables -A bannedDownloader -s 40.120.36.240 -j DROP # WP scanner
-sudo iptables -A bannedDownloader -s 40.121.42.137 -j DROP # WP scanner
-
-sudo iptables -A bannedDownloader -s 41.39.79.194 -j DROP
-sudo iptables -A bannedDownloader -s 41.47.138.104 -j DROP
-sudo iptables -A bannedDownloader -s 45.146.166.173 -j DROP # WP scanner
-sudo iptables -A bannedDownloader -s 41.185.8.148 -j DROP
-sudo iptables -A bannedDownloader -s 41.189.0.0/16 -j DROP  #DJ Djibouti
-sudo iptables -A bannedDownloader -s 41.237.113.106 -j DROP  #WP hacker
-
-sudo iptables -A bannedDownloader -s 42.81.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 42.91.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 42.114.246.120 -j DROP
-sudo iptables -A bannedDownloader -s 42.119.252.189 -j DROP
-sudo iptables -A bannedDownloader -s 42.120.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 42.193.200.167 -j DROP
-sudo iptables -A bannedDownloader -s 42.227.0.0/16 -j DROP
-
-sudo iptables -A bannedDownloader -s 43.132.165.94 -j DROP
-sudo iptables -A bannedDownloader -s 43.225.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 43.241.70.75 -j DROP
-sudo iptables -A bannedDownloader -s 43.249.113.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 43.249.114.36 -j DROP
-
-sudo iptables -A bannedDownloader -s 45.10.88.238 -j DROP
-sudo iptables -A bannedDownloader -s 45.55.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 45.79.209.150 -j DROP
-sudo iptables -A bannedDownloader -s 45.87.2.186 -j DROP
-sudo iptables -A bannedDownloader -s 45.118.32.90 -j DROP
-sudo iptables -A bannedDownloader -s 45.119.84.18 -j DROP
-sudo iptables -A bannedDownloader -s 45.146.164.125 -j DROP
-sudo iptables -A bannedDownloader -s 45.146.164.135  -j DROP #website hacker
-sudo iptables -A bannedDownloader -s 45.166.21.165 -j DROP
-sudo iptables -A bannedDownloader -s 45.180.140.138 -j DROP
-sudo iptables -A bannedDownloader -s 45.233.172.18 -j DROP
-sudo iptables -A bannedDownloader -s 45.233.172.53 -j DROP
-
-sudo iptables -A bannedDownloader -s 46.8.174.116 -j DROP
-sudo iptables -A bannedDownloader -s 46.39.243.136 -j DROP
-sudo iptables -A bannedDownloader -s 46.102.0.0/16 -j DROP # ROMANIA BOT NET
-sudo iptables -A bannedDownloader -s 46.118.124.104 -j DROP
-
-sudo iptables -A bannedDownloader -s 47.9.0.0/16 -j DROP # india
-sudo iptables -A bannedDownloader -s 47.75.84.180 -j DROP # california usa
-sudo iptables -A bannedDownloader -s 47.92.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 47.93.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 47.95.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 47.113.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 47.128.17.107 -j DROP
-sudo iptables -A bannedDownloader -s 47.128.22.21 -j DROP
-sudo iptables -A bannedDownloader -s 47.128.26.62 -j DROP
-
-sudo iptables -A bannedDownloader -s 49.12.69.71 -j DROP
-sudo iptables -A bannedDownloader -s 49.80.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 49.82.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 49.88.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 49.89.0.0/16 -j DROP
-sudo iptables -A bannedDownloader -s 49.232.70.69 -j DROP
-sudo iptables -A bannedDownloader -s 49.234.43.173 -j DROP # ssh attacker
+40.71.169.235
+40.77.107.181
+40.77.111.208
+40.86.255.160
+40.120.36.240
+40.121.42.137
+41.39.79.194
+41.47.138.104
+45.146.166.173
+41.185.8.148
+41.189.0.0/16
+41.237.113.106
+42.81.0.0/16
+42.91.0.0/16
+42.114.246.120
+42.119.252.189
+42.120.0.0/16
+42.193.200.167
+42.227.0.0/16
+43.132.165.94
+43.225.0.0/16
+43.241.70.75
+43.249.113.0/16
+43.249.114.36
+45.10.88.238
+45.55.0.0/16
+45.79.209.150
+45.87.2.186
+45.118.32.90
+45.119.84.18
+45.146.164.125
+45.146.164.135
+45.166.21.165
+45.180.140.138
+45.233.172.18
+45.233.172.53
+46.8.174.116
+46.39.243.136
+46.102.0.0/16
+46.118.124.104
+47.9.0.0/16
+47.75.84.180
+47.92.0.0/16
+47.93.0.0/16
+47.95.0.0/16
+47.113.0.0/16
+47.128.17.107
+47.128.22.21
+47.128.26.62
+49.12.69.71
+49.80.0.0/16
+49.82.0.0/16
+49.88.0.0/16
+49.89.0.0/16
+49.232.70.69
+49.234.43.173
