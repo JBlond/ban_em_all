@@ -4,123 +4,139 @@ sudo iptables --flush bannedDownloader
 sudo iptables -X bannedDownloader
 sudo iptables -N bannedDownloader
 
-cat ./bots.txt | while read line
+echo -e " \e[32mBlock 1.x\e[0m"
+cat ./blocksv4/00x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 
-echo -e " \e[32mBlock 1.x\e[0m"
-cat ./blocks/00x.txt | while read line
-do
-   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
-done
 echo -e " \e[32mBlock 1x.x\e[0m"
-cat ./blocks/01x.txt | while read line
+cat ./blocksv4/01x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 2x.x\e[0m"
-cat ./blocks/02x.txt | while read line
+cat ./blocksv4/02x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 3x.x\e[0m"
-cat ./blocks/03x.txt | while read line
+cat ./blocksv4/03x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 4x.x\e[0m"
-cat ./blocks/04x.txt | while read line
+cat ./blocksv4/04x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 5x.x\e[0m"
-cat ./blocks/05x.txt | while read line
+cat ./blocksv4/05x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 echo -e " \e[32mBlock 6x.x\e[0m"
-cat ./blocks/06x.txt | while read line
+cat ./blocksv4/06x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 7x.x\e[0m"
-cat ./blocks/07x.txt | while read line
+cat ./blocksv4/07x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 8x.x\e[0m"
-cat ./blocks/08x.txt | while read line
+cat ./blocksv4/08x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 echo -e " \e[32mBlock 9x.x\e[0m"
-cat ./blocks/09x.txt | while read line
+cat ./blocksv4/09x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 10x.x\e[0m"
-cat ./blocks/10x.txt | while read line
+cat ./blocksv4/10x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 11x.x\e[0m"
-cat ./blocks/11x.txt | while read line
+cat ./blocksv4/11x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 12x.x\e[0m"
-cat ./blocks/12x.txt | while read line
+cat ./blocksv4/12x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 13x.x\e[0m"
-cat ./blocks/13x.txt | while read line
+cat ./blocksv4/13x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 14x.x\e[0m"
-cat ./blocks/14x.txt | while read line
+cat ./blocksv4/14x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 15x.x\e[0m"
-cat ./blocks/15x.txt | while read line
+cat ./blocksv4/15x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 16x.x\e[0m"
-cat ./blocks/16x.txt | while read line
+cat ./blocksv4/16x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 17x.x\e[0m"
-cat ./blocks/17x.txt | while read line
+cat ./blocksv4/17x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 18x.x\e[0m"
-cat ./blocks/18x.txt | while read line
+cat ./blocksv4/18x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 19x.x\e[0m"
-cat ./blocks/19x.txt | while read line
+cat ./blocksv4/19x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 20x.x\e[0m"
-cat ./blocks/20x.txt | while read line
+cat ./blocksv4/20x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 echo -e " \e[32mBlock 21x.x\e[0m"
-cat ./blocks/21x.txt | while read line
+cat ./blocksv4/21x.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
+
 sudo iptables -A INPUT -j bannedDownloader
 ./services.sh
+
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-request -j DROP
 sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-reply -j DROP
 sudo iptables -A INPUT -p icmp --icmp-type 13 -j DROP
