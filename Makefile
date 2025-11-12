@@ -44,3 +44,8 @@ list:
 	@echo ""
 	@sudo iptables -S
 	@echo ""
+
+pihole:
+	@echo ""
+	@./pihole.sh
+	@echo ""
