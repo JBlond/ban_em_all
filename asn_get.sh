@@ -35,5 +35,5 @@ for entry in "${LIST[@]}"; do
         | grep -E '^[0-9]' \
         | sort -u > "$FILE"
 
-    echo " -> gespeichert in $FILE"
+    echo " -> saved as $FILE"
 done
