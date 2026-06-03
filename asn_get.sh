@@ -29,7 +29,7 @@ for entry in "${LIST[@]}"; do
 
     FILE="${OUTDIR}/${ASN}-${NAME}.txt"
 
-    echo "Hole AS$ASN ($NAME)..."
+    echo "Grabbing AS$ASN ($NAME)..."
 
     curl -s "https://asn.ipinfo.app/api/text/list/AS$ASN" \
         | grep -E '^[0-9a-fA-F:\.]+' \

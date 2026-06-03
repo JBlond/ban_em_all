@@ -20,7 +20,7 @@ sudo ip6tables -A $CHAIN -m limit --limit 2/min --limit-burst 5 \
 for file in asn/*.txt; do
     [ -e "$file" ] || continue
 
-    echo "-> Lade $file"
+    echo "-> Loading $file"
 
     while read net; do
         [ -z "$net" ] && continue
