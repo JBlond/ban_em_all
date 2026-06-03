@@ -32,7 +32,7 @@ for entry in "${LIST[@]}"; do
     echo "Hole AS$ASN ($NAME)..."
 
     curl -s "https://asn.ipinfo.app/api/text/list/AS$ASN" \
-        | grep -E '^[0-9]' \
+        | grep -E '^[0-9a-fA-F:\.]+' \
         | sort -u > "$FILE"
 
     echo " -> saved as $FILE"
