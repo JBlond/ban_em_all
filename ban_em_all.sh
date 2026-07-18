@@ -134,7 +134,7 @@ do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 
-sudo iptables -A INPUT 1 -j bannedDownloader
+sudo iptables -I INPUT 1 -j bannedDownloader
 
 ./services.sh
 
