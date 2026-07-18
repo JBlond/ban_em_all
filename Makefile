@@ -76,3 +76,11 @@ pihole:
 	@echo ""
 	@./pihole.sh
 	@echo ""
+
+.PHONY: chains
+##chains: list all chains
+pihole:
+	@echo ""
+	@sudo iptables -L INPUT --line-numbers
+	@echo ""
+
