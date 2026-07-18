@@ -134,11 +134,12 @@ do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 
-sudo iptables -A INPUT -j bannedDownloader
+sudo iptables -A INPUT 1 -j bannedDownloader
+
 ./services.sh
 
-sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-request -j DROP
-sudo iptables -I INPUT 1 -p ICMP --icmp-type timestamp-reply -j DROP
+sudo iptables -I INPUT 2 -p ICMP --icmp-type timestamp-request -j DROP
+sudo iptables -I INPUT 2 -p ICMP --icmp-type timestamp-reply -j DROP
 sudo iptables -A INPUT -p icmp --icmp-type 13 -j DROP
 
 echo -e " \e[32mBlock IPv6\e[0m"
