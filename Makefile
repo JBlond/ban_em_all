@@ -82,5 +82,6 @@ pihole:
 chains:
 	@echo ""
 	@sudo iptables -L INPUT --line-numbers
+	@sudo ip6tables -L INPUT --line-numbers
 	@echo ""
 
