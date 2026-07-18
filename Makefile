@@ -79,7 +79,7 @@ pihole:
 
 .PHONY: chains
 ##chains: list all chains
-pihole:
+chains:
 	@echo ""
 	@sudo iptables -L INPUT --line-numbers
 	@echo ""
