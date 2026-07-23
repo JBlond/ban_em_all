@@ -86,14 +86,14 @@ chains:
 	@echo ""
 
 .PHONY: asn-update
-#asn-update: print your lists
+##asn-update: print your lists
 asn-update:
 	@echo ""
 	@./asn_get.sh
 	@echo ""
 
 .PHONY: asn
-#asn: print your lists
+##asn: print your lists
 asn:
 	@echo ""
 	@./asn.sh
