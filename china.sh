@@ -60,8 +60,14 @@ do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
 
-echo -e " \e[32mBlock 10x.x\e[0m"
-cat ./chinav4/100.txt | while read line
+echo -e " \e[32mBlock 101.x\e[0m"
+cat ./chinav4/101.txt | while read line
+do
+   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+done
+
+echo -e " \e[32mBlock 102.x\e[0m"
+cat ./chinav4/102.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
@@ -73,7 +79,31 @@ do
 done
 
 echo -e " \e[32mBlock 104.x\e[0m"
-cat ./chinav4/140.txt | while read line
+cat ./chinav4/104.txt | while read line
+do
+   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+done
+
+echo -e " \e[32mBlock 106.x\e[0m"
+cat ./chinav4/106.txt | while read line
+do
+   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+done
+
+echo -e " \e[32mBlock 107.x\e[0m"
+cat ./chinav4/107.txt | while read line
+do
+   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+done
+
+echo -e " \e[32mBlock 108.x\e[0m"
+cat ./chinav4/108.txt | while read line
+do
+   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+done
+
+echo -e " \e[32mBlock 109.x\e[0m"
+cat ./chinav4/109.txt | while read line
 do
    eval "sudo iptables -A bannedDownloader -s $line -j DROP"
 done
