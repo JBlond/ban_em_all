@@ -1,4 +1,6 @@
 echo -e " \e[32mBlock services IPv4\e[0m"
+sudo iptables -A INPUT -p tcp -s localhost --dport 81 -j ACCEPT
+sudo iptables -A INPUT -p tcp --dport 81 -j REJECT --reject-with tcp-reset
 sudo iptables -A INPUT -p udp -s localhost --dport 123 -j ACCEPT #ntp allow local
 sudo iptables -I INPUT -p udp --dport 123 -j REJECT #ntp
 sudo iptables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local

@@ -153,6 +153,8 @@ do
    eval "sudo ip6tables -A bannedDownloader -s $line -j DROP"
 done
 
+sudo ip6tables -A INPUT -p tcp -s localhost --dport 81 -j ACCEPT
+sudo ip6tables -A INPUT -p tcp --dport 81 -j REJECT --reject-with tcp-reset
 sudo ip6tables -A INPUT -p udp -s localhost --dport 123 -j ACCEPT #ntp allow local
 sudo ip6tables -A INPUT -p udp --dport 123 -j REJECT #ntp
 sudo ip6tables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local
