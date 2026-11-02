@@ -21,9 +21,9 @@ china:
 	@echo ""
 	@./china.sh
 
-.PHONY: china6
+.PHONY: china6 chinav6
 ##china6: block most of china IPv6
-china6:
+china6 chinav6:
 	@echo ""
 	@./chinav6.sh
 
@@ -31,7 +31,7 @@ china6:
 ##immuniweb: block immuniweb scanners
 immuniweb:
 	@echo ''
-	@:./immuniweb.sh
+	@./immuniweb.sh
 
 .PHONY: all
 ##all: run all blocks
