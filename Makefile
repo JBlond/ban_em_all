@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help 
+.PHONY: help
 ##help: Shows this list
 help:
 	@grep -E '\#\#[a-zA-Z\.\-]+:.*$$' $(MAKEFILE_LIST) \
@@ -31,7 +31,7 @@ china6:
 ##immuniweb: block immuniweb scanners
 immuniweb:
 	@echo ''
-	@:./immuniweb.sh
+	@./immuniweb.sh
 
 .PHONY: all
 ##all: run all blocks
