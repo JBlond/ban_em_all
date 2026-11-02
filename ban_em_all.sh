@@ -153,12 +153,5 @@ do
    eval "sudo ip6tables -A bannedDownloader -s $line -j DROP"
 done
 
-sudo ip6tables -A INPUT -p tcp -s localhost --dport 81 -j ACCEPT
-sudo ip6tables -A INPUT -p tcp --dport 81 -j REJECT --reject-with tcp-reset
-sudo ip6tables -A INPUT -p udp -s localhost --dport 123 -j ACCEPT #ntp allow local
-sudo ip6tables -A INPUT -p udp --dport 123 -j REJECT #ntp
-sudo ip6tables -A INPUT -p tcp -s localhost --dport 3306 -j ACCEPT #mysql allow local
-sudo ip6tables -A INPUT -p tcp --dport 3306 -j REJECT --reject-with tcp-reset #mysql
-sudo ip6tables -A INPUT -p tcp -s localhost --dport 8086 -j ACCEPT #influxdb prod allow local
-sudo ip6tables -A INPUT -p tcp --dport 8086 -j REJECT --reject-with tcp-reset #influxdb prod
+./services-v6.sh
 sudo ip6tables -I INPUT 1 -j bannedDownloader
