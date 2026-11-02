@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 echo -e " \e[32mBlock China min IPv4\e[0m"
-cat ./chinav4/min.txt | while read line
+cat ./chinav4/min.txt | while IFS= read -r line
 do
-   eval "sudo iptables -A bannedDownloader -s $line -j DROP"
+   sudo iptables -A bannedDownloader -s "$line" -j DROP
 done
