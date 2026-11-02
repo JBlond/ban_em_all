@@ -21,9 +21,9 @@ china:
 	@echo ""
 	@./china.sh
 
-.PHONY: china6
+.PHONY: china6 chinav6
 ##china6: block most of china IPv6
-china6:
+china6 chinav6:
 	@echo ""
 	@./chinav6.sh
 

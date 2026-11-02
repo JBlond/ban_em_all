@@ -11,13 +11,13 @@ Where is the attacking IP localed? Try www.utrace.de or utrace.me/whois/
 sudo apt-get install git fail2ban make
 git clone https://github.com/JBlond/ban_em_all.git ban
 cd ban
-make
+make install
 ```
 
 ## update
 
 ```bash
-make
+make install
 ```
 
 ## ban some IP (range) on the spot
